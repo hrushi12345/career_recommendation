@@ -1,0 +1,1001 @@
+StudentID,Name,Age,Grade,Mathematics,Science,English,Hindi,Sanskrit,SocialStudies,PreferredSubjects,WeakSubjects,LearningStyle,Hobbies,CareerInterest
+1,Student_1,16,9,66,48,63,80,49,75,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Doctor
+2,Student_2,16,8,51,69,85,94,65,62,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Dance', 'Writing']",Teacher
+3,Student_3,15,8,59,63,60,63,44,51,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Music']",Engineer
+4,Student_4,16,9,66,97,85,60,44,57,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Music', 'Writing']",Entrepreneur
+5,Student_5,14,8,49,44,78,94,45,74,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Technology', 'Reading']",Scientist
+6,Student_6,15,10,57,64,42,74,65,59,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,['Dance'],Teacher
+7,Student_7,16,8,67,98,95,98,46,81,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Visual,['Technology'],Doctor
+8,Student_8,16,9,45,63,87,60,72,51,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Technology']",Teacher
+9,Student_9,14,8,68,64,83,93,54,42,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Auditory,['Writing'],Government Services
+10,Student_10,15,9,43,73,57,45,40,56,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Visual,"['Reading', 'Sports', 'Arts']",Doctor
+11,Student_11,16,9,68,40,80,67,79,71,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Arts']",Scientist
+12,Student_12,14,8,85,60,83,100,95,87,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Sports'],Artist
+13,Student_13,16,9,84,60,94,93,85,62,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Music']",Entrepreneur
+14,Student_14,14,8,55,49,40,47,43,79,"['Mathematics', 'Hindi']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Music', 'Arts']",Teacher
+15,Student_15,14,8,47,45,52,82,85,88,"['Science', 'English', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Government Services
+16,Student_16,16,10,69,97,100,81,88,55,"['Hindi', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Kinesthetic,"['Technology', 'Reading']",Government Services
+17,Student_17,16,10,80,57,41,95,86,53,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Reading'],Teacher
+18,Student_18,15,9,54,44,49,80,81,60,"['Science', 'Hindi', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Arts']",Scientist
+19,Student_19,14,10,66,50,41,83,74,96,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Writing', 'Music']",Engineer
+20,Student_20,15,10,56,75,99,42,72,53,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,['Technology'],Entrepreneur
+21,Student_21,15,10,92,66,84,74,46,76,"['Sanskrit', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English']",Visual,"['Music', 'Reading']",Doctor
+22,Student_22,14,10,79,58,60,87,57,87,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Dance'],Doctor
+23,Student_23,16,10,62,77,57,89,63,59,"['English', 'Sanskrit', 'Mathematics']","['Science', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Reading', 'Sports']",Artist
+24,Student_24,16,10,60,74,80,75,60,48,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Writing', 'Sports']",Engineer
+25,Student_25,15,8,82,78,75,65,49,75,"['Sanskrit', 'Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi']",Auditory,"['Technology', 'Dance', 'Reading']",Government Services
+26,Student_26,14,8,60,75,93,66,41,62,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Arts', 'Sports']",Engineer
+27,Student_27,15,10,89,63,76,59,40,78,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,['Writing'],Scientist
+28,Student_28,16,10,84,49,95,43,61,55,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Writing']",Doctor
+29,Student_29,14,10,98,99,41,61,85,50,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Dance', 'Sports']",Entrepreneur
+30,Student_30,14,8,59,99,82,92,89,68,"['SocialStudies', 'Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit']",Logical,"['Music', 'Dance']",Scientist
+31,Student_31,14,9,63,62,44,50,69,51,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Engineer
+32,Student_32,14,10,95,92,42,62,48,44,"['Hindi', 'English', 'SocialStudies']","['Mathematics', 'Science', 'Sanskrit']",Visual,['Dance'],Teacher
+33,Student_33,16,9,78,93,72,70,43,59,"['Hindi', 'SocialStudies', 'Science']","['Mathematics', 'English', 'Sanskrit']",Kinesthetic,"['Technology', 'Sports']",Teacher
+34,Student_34,16,8,59,84,42,78,67,92,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,['Music'],Artist
+35,Student_35,14,10,68,48,69,85,95,89,"['Science', 'Hindi', 'English']","['Mathematics', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Technology', 'Writing']",Teacher
+36,Student_36,16,10,100,99,70,88,98,56,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Auditory,"['Writing', 'Technology']",Scientist
+37,Student_37,15,9,54,89,62,63,51,49,"['English', 'SocialStudies', 'Mathematics']","['Science', 'Hindi', 'Sanskrit']",Logical,"['Dance', 'Technology', 'Music']",Entrepreneur
+38,Student_38,15,10,97,41,87,67,71,42,"['Hindi', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Auditory,['Sports'],Entrepreneur
+39,Student_39,15,8,93,72,97,54,44,42,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Technology'],Engineer
+40,Student_40,15,10,43,98,81,83,74,87,"['Sanskrit', 'Hindi', 'Mathematics']","['Science', 'English', 'SocialStudies']",Kinesthetic,"['Dance', 'Arts', 'Technology']",Government Services
+41,Student_41,14,9,95,59,90,71,72,65,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Dance']",Doctor
+42,Student_42,15,10,100,70,65,57,62,66,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Writing']",Government Services
+43,Student_43,14,8,43,99,59,81,46,75,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Writing'],Teacher
+44,Student_44,15,9,86,78,79,54,88,74,"['Hindi', 'Sanskrit', 'English']","['Mathematics', 'Science', 'SocialStudies']",Auditory,"['Sports', 'Arts', 'Reading']",Artist
+45,Student_45,15,10,66,86,100,40,95,41,"['Hindi', 'English', 'SocialStudies']","['Mathematics', 'Science', 'Sanskrit']",Auditory,"['Reading', 'Writing', 'Music']",Doctor
+46,Student_46,14,10,45,69,56,66,73,72,"['English', 'Science', 'Sanskrit']","['Mathematics', 'Hindi', 'SocialStudies']",Visual,"['Sports', 'Dance', 'Music']",Teacher
+47,Student_47,15,8,94,85,70,61,91,68,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Logical,"['Music', 'Dance', 'Sports']",Engineer
+48,Student_48,16,10,90,93,65,40,67,76,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Sports', 'Technology']",Artist
+49,Student_49,14,10,42,91,71,100,47,83,"['English', 'Hindi', 'SocialStudies']","['Mathematics', 'Science', 'Sanskrit']",Logical,"['Arts', 'Reading', 'Dance']",Government Services
+50,Student_50,16,10,62,100,97,84,47,42,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Sports']",Teacher
+51,Student_51,14,9,99,42,47,67,71,76,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Visual,"['Technology', 'Writing', 'Dance']",Teacher
+52,Student_52,14,9,100,79,56,78,47,69,"['Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Sports', 'Music', 'Technology']",Teacher
+53,Student_53,15,8,93,64,80,53,68,97,"['Sanskrit', 'Science', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Visual,"['Arts', 'Sports']",Doctor
+54,Student_54,15,9,44,84,57,73,82,51,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Sports']",Engineer
+55,Student_55,15,10,40,56,71,80,80,76,"['Sanskrit', 'Hindi', 'Science']","['Mathematics', 'English', 'SocialStudies']",Visual,"['Music', 'Sports']",Engineer
+56,Student_56,15,9,70,60,49,58,74,59,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Sports', 'Dance']",Entrepreneur
+57,Student_57,16,9,78,63,95,77,81,88,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Doctor
+58,Student_58,15,8,47,54,46,56,47,82,"['Hindi', 'Science', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Music']",Doctor
+59,Student_59,16,8,88,66,100,70,61,69,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Doctor
+60,Student_60,14,8,71,69,42,84,56,67,"['Hindi', 'Science', 'English']","['Mathematics', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Dance']",Entrepreneur
+61,Student_61,16,10,61,74,41,56,44,55,"['Hindi', 'Sanskrit', 'English']","['Mathematics', 'Science', 'SocialStudies']",Visual,['Technology'],Teacher
+62,Student_62,16,8,90,87,98,47,47,65,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Technology'],Entrepreneur
+63,Student_63,16,10,74,48,51,55,50,76,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Logical,"['Sports', 'Technology', 'Music']",Teacher
+64,Student_64,16,8,40,82,94,86,48,100,"['English', 'Mathematics', 'Hindi']","['Science', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Writing', 'Reading']",Artist
+65,Student_65,15,9,54,92,57,78,86,69,"['Mathematics', 'Science', 'English']","['Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Artist
+66,Student_66,15,10,80,70,95,88,87,87,"['Hindi', 'English', 'Science']","['Mathematics', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Entrepreneur
+67,Student_67,14,10,96,56,51,78,77,99,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Kinesthetic,['Writing'],Scientist
+68,Student_68,15,10,52,71,68,92,52,78,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Kinesthetic,"['Writing', 'Reading']",Government Services
+69,Student_69,16,8,91,46,64,40,71,50,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Music', 'Writing']",Artist
+70,Student_70,14,8,69,78,71,64,94,43,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Logical,"['Music', 'Reading']",Artist
+71,Student_71,15,10,87,57,61,87,82,60,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Writing', 'Music']",Scientist
+72,Student_72,15,8,96,63,92,99,75,72,"['Science', 'Mathematics', 'Sanskrit']","['English', 'Hindi', 'SocialStudies']",Auditory,"['Music', 'Reading']",Entrepreneur
+73,Student_73,14,9,46,92,79,57,86,52,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Technology', 'Dance']",Artist
+74,Student_74,14,9,99,74,40,59,46,79,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Visual,"['Sports', 'Dance']",Doctor
+75,Student_75,15,9,49,85,99,52,70,44,"['Mathematics', 'Sanskrit', 'Science']","['English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts', 'Writing']",Doctor
+76,Student_76,15,10,64,99,69,83,40,47,"['Mathematics', 'SocialStudies', 'Sanskrit']","['Science', 'English', 'Hindi']",Auditory,"['Writing', 'Sports', 'Arts']",Teacher
+77,Student_77,15,8,53,74,61,79,59,52,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Music', 'Reading']",Government Services
+78,Student_78,16,10,56,43,51,74,92,62,"['Mathematics', 'SocialStudies', 'Hindi']","['Science', 'English', 'Sanskrit']",Auditory,"['Dance', 'Music', 'Sports']",Entrepreneur
+79,Student_79,15,9,58,45,97,64,84,62,"['Mathematics', 'SocialStudies', 'Science']","['English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Music', 'Arts']",Artist
+80,Student_80,14,10,81,53,66,40,86,43,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Dance', 'Sports']",Engineer
+81,Student_81,14,8,63,95,99,79,77,72,"['Mathematics', 'Sanskrit', 'English']","['Science', 'Hindi', 'SocialStudies']",Auditory,['Reading'],Doctor
+82,Student_82,14,10,71,61,97,82,41,97,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,['Music'],Scientist
+83,Student_83,14,8,80,94,71,51,88,64,"['SocialStudies', 'Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English']",Kinesthetic,['Dance'],Artist
+84,Student_84,14,10,49,87,87,45,49,72,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Sports', 'Music']",Doctor
+85,Student_85,16,9,52,87,85,75,87,47,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Reading'],Doctor
+86,Student_86,15,8,73,40,84,65,82,93,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Writing', 'Arts', 'Music']",Scientist
+87,Student_87,14,10,51,82,67,50,75,82,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Arts'],Government Services
+88,Student_88,16,9,72,86,75,98,96,98,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Dance', 'Music']",Engineer
+89,Student_89,16,9,40,94,94,56,93,96,"['Mathematics', 'SocialStudies', 'Sanskrit']","['Science', 'English', 'Hindi']",Auditory,['Sports'],Artist
+90,Student_90,16,9,70,65,92,90,40,79,"['SocialStudies', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English']",Auditory,"['Arts', 'Music']",Entrepreneur
+91,Student_91,14,8,53,93,62,59,71,48,"['Mathematics', 'English', 'Sanskrit']","['Science', 'Hindi', 'SocialStudies']",Logical,['Sports'],Doctor
+92,Student_92,14,9,58,59,55,87,59,89,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Writing', 'Reading', 'Technology']",Entrepreneur
+93,Student_93,14,9,51,83,82,83,69,60,"['English', 'Mathematics', 'Science']","['Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Reading', 'Technology', 'Music']",Doctor
+94,Student_94,14,10,89,47,82,94,61,83,"['SocialStudies', 'Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi']",Auditory,"['Technology', 'Music']",Teacher
+95,Student_95,15,8,68,48,67,98,94,99,"['SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Writing', 'Technology']",Teacher
+96,Student_96,14,10,75,92,87,79,48,61,"['Hindi', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Sanskrit']",Auditory,['Technology'],Artist
+97,Student_97,15,10,78,80,59,43,63,43,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Sports']",Teacher
+98,Student_98,15,8,74,52,90,89,94,49,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Writing']",Teacher
+99,Student_99,16,10,71,75,97,79,66,48,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Writing', 'Sports', 'Dance']",Scientist
+100,Student_100,16,10,53,50,45,44,52,56,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Sports', 'Dance']",Engineer
+101,Student_101,16,8,43,97,73,42,77,45,"['Hindi', 'Mathematics', 'Sanskrit']","['Science', 'English', 'SocialStudies']",Visual,['Music'],Teacher
+102,Student_102,14,9,47,52,84,96,86,95,"['Science', 'Mathematics', 'Hindi']","['English', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Music', 'Technology']",Artist
+103,Student_103,14,8,93,43,86,90,67,72,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Dance', 'Music']",Teacher
+104,Student_104,16,10,60,68,44,57,85,52,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Writing', 'Technology', 'Dance']",Entrepreneur
+105,Student_105,15,9,75,53,92,89,66,91,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Technology', 'Arts']",Entrepreneur
+106,Student_106,16,10,74,80,65,84,54,89,"['Hindi', 'Science', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Visual,['Writing'],Engineer
+107,Student_107,14,9,66,93,67,66,75,64,"['Sanskrit', 'Hindi', 'English']","['Mathematics', 'Science', 'SocialStudies']",Auditory,"['Music', 'Reading']",Artist
+108,Student_108,14,9,54,71,47,78,91,77,"['Hindi', 'Science', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Logical,"['Technology', 'Writing', 'Dance']",Scientist
+109,Student_109,15,8,68,48,96,57,98,42,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Doctor
+110,Student_110,16,10,77,86,62,91,96,95,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Sports', 'Technology']",Engineer
+111,Student_111,16,8,100,56,47,75,73,99,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Music'],Artist
+112,Student_112,15,10,45,42,69,77,80,60,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Reading', 'Writing']",Teacher
+113,Student_113,16,8,79,63,74,99,47,74,"['Mathematics', 'SocialStudies', 'Sanskrit']","['Science', 'English', 'Hindi']",Visual,"['Technology', 'Writing', 'Sports']",Engineer
+114,Student_114,15,8,98,63,61,86,66,46,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Dance']",Doctor
+115,Student_115,15,9,81,82,73,94,67,76,"['English', 'Science', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Music']",Doctor
+116,Student_116,14,10,59,97,61,74,54,54,"['Mathematics', 'Hindi']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Writing']",Engineer
+117,Student_117,16,8,66,59,41,87,62,80,"['Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Reading'],Scientist
+118,Student_118,15,10,90,90,99,71,48,90,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Reading'],Engineer
+119,Student_119,16,8,70,46,79,59,77,49,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Visual,"['Writing', 'Sports']",Teacher
+120,Student_120,14,8,68,40,91,40,51,89,"['SocialStudies', 'English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Logical,['Dance'],Artist
+121,Student_121,14,10,40,99,96,76,57,61,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Auditory,['Sports'],Government Services
+122,Student_122,16,8,50,87,83,72,82,99,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Reading'],Teacher
+123,Student_123,16,10,62,80,57,94,42,47,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Teacher
+124,Student_124,14,8,58,100,63,97,95,44,"['Mathematics', 'Hindi', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Logical,"['Music', 'Writing', 'Dance']",Teacher
+125,Student_125,15,9,73,94,95,56,60,82,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Sports'],Government Services
+126,Student_126,14,8,73,80,76,46,75,48,"['Mathematics', 'English', 'Science']","['Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Technology']",Government Services
+127,Student_127,16,9,47,87,75,67,50,86,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Writing', 'Reading']",Doctor
+128,Student_128,16,10,69,40,88,45,45,40,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Dance', 'Reading']",Teacher
+129,Student_129,16,9,59,74,46,93,47,63,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,['Technology'],Doctor
+130,Student_130,15,8,99,88,53,100,55,88,"['Hindi', 'Science', 'English']","['Mathematics', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Technology', 'Sports']",Scientist
+131,Student_131,15,8,56,82,79,66,74,57,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Kinesthetic,"['Writing', 'Reading']",Artist
+132,Student_132,16,9,62,49,97,40,100,77,"['Science', 'Sanskrit', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Kinesthetic,['Sports'],Scientist
+133,Student_133,14,8,91,96,89,48,79,84,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Visual,"['Reading', 'Writing', 'Technology']",Engineer
+134,Student_134,14,9,51,91,57,77,98,54,"['Mathematics', 'Sanskrit', 'Hindi']","['Science', 'English', 'SocialStudies']",Logical,"['Sports', 'Writing', 'Music']",Entrepreneur
+135,Student_135,15,8,70,59,45,81,63,68,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Writing'],Entrepreneur
+136,Student_136,16,8,97,68,88,58,92,59,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Visual,"['Arts', 'Reading', 'Technology']",Engineer
+137,Student_137,15,8,82,75,82,97,90,43,"['English', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Logical,"['Arts', 'Dance', 'Sports']",Artist
+138,Student_138,15,8,43,63,64,79,81,53,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Technology', 'Reading']",Engineer
+139,Student_139,16,9,86,74,74,84,52,44,"['English', 'SocialStudies', 'Science']","['Mathematics', 'Hindi', 'Sanskrit']",Kinesthetic,"['Technology', 'Reading']",Doctor
+140,Student_140,16,8,78,81,78,81,57,51,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Reading', 'Writing']",Scientist
+141,Student_141,15,8,52,85,72,73,93,61,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Visual,['Dance'],Artist
+142,Student_142,16,9,59,41,55,49,69,41,"['Hindi', 'SocialStudies', 'English']","['Mathematics', 'Science', 'Sanskrit']",Auditory,"['Dance', 'Writing']",Doctor
+143,Student_143,15,9,74,64,82,49,59,68,"['Sanskrit', 'Science', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Logical,['Writing'],Entrepreneur
+144,Student_144,14,8,58,47,50,89,85,43,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Dance']",Entrepreneur
+145,Student_145,16,8,75,42,65,73,97,56,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Technology', 'Music', 'Arts']",Engineer
+146,Student_146,14,10,44,83,65,43,41,93,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Reading', 'Dance']",Scientist
+147,Student_147,16,9,100,96,70,60,72,83,"['Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Dance', 'Writing', 'Music']",Doctor
+148,Student_148,15,10,98,89,70,100,50,86,"['Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Technology', 'Dance', 'Arts']",Teacher
+149,Student_149,15,8,71,46,83,54,81,56,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Reading'],Engineer
+150,Student_150,16,9,40,60,56,74,83,94,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,"['Reading', 'Music']",Teacher
+151,Student_151,16,8,72,55,59,61,60,60,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Arts', 'Dance']",Scientist
+152,Student_152,16,8,97,85,49,61,59,84,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Logical,['Music'],Entrepreneur
+153,Student_153,14,9,81,40,40,90,69,84,"['Science', 'Hindi', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Arts']",Entrepreneur
+154,Student_154,15,9,53,46,98,90,41,65,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,['Technology'],Artist
+155,Student_155,16,9,72,82,88,96,54,64,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Logical,['Music'],Artist
+156,Student_156,16,10,91,48,55,97,90,85,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Kinesthetic,"['Reading', 'Sports', 'Dance']",Doctor
+157,Student_157,16,8,70,63,44,69,54,94,"['Sanskrit', 'Mathematics', 'Hindi']","['Science', 'English', 'SocialStudies']",Auditory,['Sports'],Entrepreneur
+158,Student_158,16,9,56,72,65,54,95,98,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Dance']",Scientist
+159,Student_159,15,8,75,83,93,98,96,71,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Sports', 'Technology']",Engineer
+160,Student_160,15,9,67,92,51,44,77,65,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Technology'],Entrepreneur
+161,Student_161,14,10,72,64,59,44,92,53,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Reading', 'Sports']",Engineer
+162,Student_162,14,9,92,62,67,40,52,97,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Doctor
+163,Student_163,15,10,91,98,87,82,90,54,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Sports', 'Dance']",Engineer
+164,Student_164,14,8,82,44,78,42,64,45,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Writing', 'Technology']",Teacher
+165,Student_165,14,8,96,85,80,95,99,61,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Writing', 'Dance']",Scientist
+166,Student_166,14,9,70,50,88,71,91,87,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Dance']",Government Services
+167,Student_167,16,8,65,74,90,65,76,88,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Logical,['Reading'],Doctor
+168,Student_168,16,9,58,42,48,78,83,77,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,['Arts'],Doctor
+169,Student_169,15,8,79,91,82,94,44,99,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Writing', 'Technology']",Government Services
+170,Student_170,16,9,45,98,74,40,60,82,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Dance', 'Music']",Entrepreneur
+171,Student_171,15,10,43,66,60,67,76,96,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Dance']",Scientist
+172,Student_172,15,10,68,79,41,96,91,62,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Dance']",Doctor
+173,Student_173,15,8,60,50,88,69,51,86,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Reading', 'Music']",Doctor
+174,Student_174,14,9,62,84,63,43,67,55,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Reading', 'Music']",Teacher
+175,Student_175,16,9,57,77,65,89,87,64,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Auditory,"['Technology', 'Music', 'Sports']",Teacher
+176,Student_176,15,8,43,88,52,95,61,51,"['Sanskrit', 'Science', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Logical,"['Dance', 'Sports']",Entrepreneur
+177,Student_177,15,10,43,89,66,85,99,56,"['Hindi', 'Science', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Visual,['Dance'],Engineer
+178,Student_178,16,9,74,98,88,97,83,68,"['Mathematics', 'Hindi', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Dance', 'Reading']",Government Services
+179,Student_179,16,9,64,94,77,42,91,42,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Technology'],Doctor
+180,Student_180,14,9,94,77,69,98,75,64,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Arts', 'Dance']",Entrepreneur
+181,Student_181,16,9,65,80,79,50,100,90,"['SocialStudies', 'Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit']",Visual,"['Dance', 'Technology', 'Music']",Entrepreneur
+182,Student_182,14,9,58,85,75,54,70,86,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Sports']",Teacher
+183,Student_183,16,10,75,54,45,88,82,56,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Technology'],Artist
+184,Student_184,14,8,73,71,65,60,67,52,"['Sanskrit', 'English', 'Hindi']","['Mathematics', 'Science', 'SocialStudies']",Auditory,"['Sports', 'Dance', 'Reading']",Doctor
+185,Student_185,14,9,86,72,58,51,47,96,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,"['Technology', 'Writing']",Scientist
+186,Student_186,15,10,100,77,63,99,81,52,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Sports'],Artist
+187,Student_187,15,10,60,63,75,41,61,88,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Music', 'Arts']",Scientist
+188,Student_188,14,8,52,90,80,97,50,67,"['SocialStudies', 'English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit']",Kinesthetic,"['Reading', 'Music']",Scientist
+189,Student_189,16,10,44,44,50,79,67,85,"['Sanskrit', 'Mathematics', 'Science']","['English', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Dance']",Artist
+190,Student_190,16,8,85,93,88,46,84,99,"['Sanskrit', 'Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi']",Kinesthetic,"['Dance', 'Writing', 'Sports']",Scientist
+191,Student_191,16,10,53,51,68,57,52,100,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Arts', 'Music']",Engineer
+192,Student_192,16,8,78,56,79,86,98,42,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Logical,"['Arts', 'Music']",Scientist
+193,Student_193,14,9,65,94,53,71,56,49,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Sports', 'Dance']",Artist
+194,Student_194,15,9,75,41,62,83,72,50,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Writing', 'Dance']",Government Services
+195,Student_195,15,9,40,87,100,63,55,41,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Reading']",Artist
+196,Student_196,16,8,58,57,71,81,43,86,"['Sanskrit', 'English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi']",Kinesthetic,"['Sports', 'Reading', 'Arts']",Artist
+197,Student_197,14,8,62,66,72,49,51,49,"['English', 'Mathematics', 'Science']","['Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Writing', 'Arts']",Engineer
+198,Student_198,14,10,49,70,88,77,73,53,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Engineer
+199,Student_199,14,8,63,45,64,66,49,82,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,['Sports'],Entrepreneur
+200,Student_200,16,10,92,57,67,87,41,46,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Writing', 'Arts']",Teacher
+201,Student_201,16,8,47,99,76,66,90,53,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Sports']",Teacher
+202,Student_202,16,10,80,91,69,53,61,53,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Sports']",Artist
+203,Student_203,14,8,82,78,52,85,47,87,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Dance', 'Arts']",Scientist
+204,Student_204,16,10,96,92,68,51,95,47,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Arts'],Government Services
+205,Student_205,16,10,74,56,53,57,47,48,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,['Reading'],Entrepreneur
+206,Student_206,14,10,56,46,62,72,50,55,"['English', 'Sanskrit', 'Mathematics']","['Science', 'Hindi', 'SocialStudies']",Auditory,"['Technology', 'Dance']",Entrepreneur
+207,Student_207,16,10,44,55,99,77,58,41,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Sports']",Teacher
+208,Student_208,14,10,93,60,43,91,88,47,"['Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Sports', 'Music']",Doctor
+209,Student_209,14,10,80,48,49,44,88,74,"['SocialStudies', 'English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit']",Auditory,"['Dance', 'Arts']",Doctor
+210,Student_210,15,8,59,95,62,43,52,90,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Logical,['Technology'],Engineer
+211,Student_211,16,10,45,79,47,55,90,78,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Reading', 'Music']",Entrepreneur
+212,Student_212,16,10,61,54,60,83,63,74,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,['Dance'],Scientist
+213,Student_213,15,9,59,77,92,99,53,82,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,['Reading'],Teacher
+214,Student_214,15,10,85,84,78,41,46,98,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,"['Sports', 'Reading']",Government Services
+215,Student_215,14,8,80,90,69,99,56,71,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Government Services
+216,Student_216,16,8,79,67,45,54,70,91,"['English', 'Hindi', 'Science']","['Mathematics', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Music', 'Sports']",Artist
+217,Student_217,15,9,71,64,72,97,78,59,"['Sanskrit', 'SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi']",Visual,"['Arts', 'Sports', 'Music']",Teacher
+218,Student_218,14,9,93,42,74,93,57,88,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Visual,"['Sports', 'Music']",Government Services
+219,Student_219,16,10,91,44,91,41,100,51,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Sports']",Government Services
+220,Student_220,14,8,56,66,64,76,74,69,"['Sanskrit', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English']",Kinesthetic,['Reading'],Doctor
+221,Student_221,16,10,87,46,64,68,78,98,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Arts', 'Technology', 'Reading']",Doctor
+222,Student_222,16,8,82,84,61,58,73,96,"['Sanskrit', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi']",Logical,['Sports'],Scientist
+223,Student_223,14,9,64,86,95,75,96,70,"['SocialStudies', 'Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit']",Auditory,"['Music', 'Reading', 'Dance']",Engineer
+224,Student_224,14,10,92,76,99,51,88,72,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Arts', 'Reading']",Engineer
+225,Student_225,15,8,94,89,54,68,62,45,"['Hindi', 'Mathematics', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Teacher
+226,Student_226,16,10,52,54,82,83,85,77,"['SocialStudies', 'Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit']",Auditory,['Reading'],Scientist
+227,Student_227,14,9,48,67,56,83,84,50,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,['Music'],Engineer
+228,Student_228,14,9,51,80,77,55,58,92,"['Hindi', 'Mathematics', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Music']",Scientist
+229,Student_229,14,8,41,42,96,86,64,40,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Reading', 'Arts']",Teacher
+230,Student_230,16,9,40,90,89,46,58,84,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,"['Dance', 'Arts', 'Writing']",Scientist
+231,Student_231,16,9,90,54,85,82,40,79,"['Science', 'Mathematics', 'Sanskrit']","['English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Reading', 'Music', 'Dance']",Government Services
+232,Student_232,14,10,61,77,42,100,69,95,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Music'],Entrepreneur
+233,Student_233,15,8,72,44,63,62,74,46,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Reading', 'Arts']",Doctor
+234,Student_234,15,8,51,96,46,78,72,77,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Logical,"['Dance', 'Reading']",Scientist
+235,Student_235,16,10,84,89,56,72,62,60,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Writing'],Scientist
+236,Student_236,14,8,100,95,77,84,71,62,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Sports'],Artist
+237,Student_237,15,8,85,55,92,47,95,45,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Logical,"['Technology', 'Dance']",Engineer
+238,Student_238,16,8,49,55,40,59,65,45,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Writing', 'Sports']",Government Services
+239,Student_239,15,10,53,46,81,70,53,73,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Technology', 'Writing']",Government Services
+240,Student_240,15,8,49,96,57,55,82,74,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts']",Entrepreneur
+241,Student_241,15,9,76,58,64,92,80,71,"['Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Reading', 'Writing', 'Sports']",Entrepreneur
+242,Student_242,16,10,86,61,46,75,100,59,"['Sanskrit', 'English', 'Science']","['Mathematics', 'Hindi', 'SocialStudies']",Auditory,"['Dance', 'Arts', 'Writing']",Teacher
+243,Student_243,15,10,98,48,88,79,86,86,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,['Arts'],Engineer
+244,Student_244,16,8,50,49,74,99,45,85,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Music', 'Dance']",Entrepreneur
+245,Student_245,14,10,58,52,48,54,73,63,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Kinesthetic,['Dance'],Artist
+246,Student_246,16,8,57,93,84,92,85,40,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,['Technology'],Teacher
+247,Student_247,15,9,92,47,48,68,53,57,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Arts', 'Dance']",Doctor
+248,Student_248,16,8,67,92,48,85,46,84,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Music']",Engineer
+249,Student_249,14,9,56,43,46,68,98,63,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Technology']",Artist
+250,Student_250,16,10,44,52,44,55,42,52,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Kinesthetic,"['Sports', 'Writing']",Doctor
+251,Student_251,16,9,78,69,58,77,62,64,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Reading', 'Writing']",Entrepreneur
+252,Student_252,14,8,89,43,40,50,55,72,"['Sanskrit', 'English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi']",Visual,"['Music', 'Writing', 'Technology']",Teacher
+253,Student_253,16,9,40,52,51,47,89,62,"['English', 'Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'Hindi']",Visual,"['Technology', 'Music', 'Sports']",Government Services
+254,Student_254,16,9,46,93,44,58,95,88,"['Science', 'English', 'SocialStudies']","['Mathematics', 'Hindi', 'Sanskrit']",Auditory,"['Technology', 'Dance', 'Sports']",Entrepreneur
+255,Student_255,14,8,54,63,52,68,54,55,"['English', 'Science', 'SocialStudies']","['Mathematics', 'Hindi', 'Sanskrit']",Visual,['Arts'],Scientist
+256,Student_256,14,9,64,70,50,66,43,43,"['English', 'Sanskrit', 'Science']","['Mathematics', 'Hindi', 'SocialStudies']",Visual,"['Reading', 'Writing']",Doctor
+257,Student_257,16,10,82,48,63,69,78,98,"['Hindi', 'English', 'Mathematics']","['Science', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Writing', 'Technology']",Doctor
+258,Student_258,16,8,100,66,71,54,100,79,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Arts', 'Reading']",Scientist
+259,Student_259,15,10,97,76,88,59,84,86,"['Sanskrit', 'SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi']",Logical,"['Reading', 'Dance', 'Arts']",Government Services
+260,Student_260,14,9,86,85,75,77,93,65,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Reading'],Teacher
+261,Student_261,15,10,71,45,44,47,70,64,"['Science', 'SocialStudies', 'English']","['Mathematics', 'Hindi', 'Sanskrit']",Visual,"['Technology', 'Arts']",Artist
+262,Student_262,16,10,42,73,54,60,43,60,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Music', 'Arts']",Entrepreneur
+263,Student_263,14,8,59,68,70,82,71,71,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Dance']",Doctor
+264,Student_264,16,9,91,59,49,85,100,60,"['Mathematics', 'English', 'Sanskrit']","['Science', 'Hindi', 'SocialStudies']",Visual,"['Sports', 'Writing', 'Reading']",Artist
+265,Student_265,15,9,65,68,89,61,94,41,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Sports', 'Music']",Artist
+266,Student_266,14,9,85,48,58,49,56,48,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Arts', 'Writing']",Engineer
+267,Student_267,14,10,70,87,100,98,65,61,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Writing']",Government Services
+268,Student_268,14,9,86,86,53,41,43,90,"['Mathematics', 'Hindi', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Music', 'Writing']",Government Services
+269,Student_269,14,9,84,96,100,93,43,69,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Visual,"['Dance', 'Music']",Doctor
+270,Student_270,16,9,74,40,100,44,76,67,"['Mathematics', 'Hindi', 'Science']","['English', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Engineer
+271,Student_271,14,8,88,60,91,70,86,69,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Reading'],Artist
+272,Student_272,14,10,88,40,93,51,94,94,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Sports', 'Arts']",Entrepreneur
+273,Student_273,15,10,52,94,82,44,52,76,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Technology'],Doctor
+274,Student_274,14,9,97,90,93,87,99,61,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Reading'],Engineer
+275,Student_275,14,9,49,47,54,49,88,54,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Technology'],Engineer
+276,Student_276,15,8,71,96,90,42,91,81,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Writing', 'Dance']",Artist
+277,Student_277,16,10,73,45,70,66,81,85,"['Hindi', 'Sanskrit', 'Mathematics']","['Science', 'English', 'SocialStudies']",Visual,"['Dance', 'Writing']",Entrepreneur
+278,Student_278,15,8,53,73,78,54,46,80,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Writing']",Government Services
+279,Student_279,14,10,46,64,42,47,47,58,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Music', 'Sports']",Entrepreneur
+280,Student_280,14,10,68,77,68,76,100,90,"['Hindi', 'English', 'Mathematics']","['Science', 'Sanskrit', 'SocialStudies']",Visual,['Reading'],Teacher
+281,Student_281,14,9,78,80,75,50,87,63,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Sports', 'Writing']",Teacher
+282,Student_282,15,8,95,61,92,52,41,73,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Reading', 'Arts']",Teacher
+283,Student_283,14,10,66,53,67,64,97,62,"['English', 'Science', 'Sanskrit']","['Mathematics', 'Hindi', 'SocialStudies']",Logical,"['Sports', 'Writing', 'Music']",Government Services
+284,Student_284,16,8,61,58,83,46,97,99,"['Science', 'English', 'SocialStudies']","['Mathematics', 'Hindi', 'Sanskrit']",Kinesthetic,['Writing'],Artist
+285,Student_285,15,8,61,100,51,51,78,57,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Logical,"['Reading', 'Sports']",Scientist
+286,Student_286,16,10,80,83,88,50,54,95,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Arts', 'Reading', 'Technology']",Doctor
+287,Student_287,16,8,53,53,72,55,43,93,"['Sanskrit', 'Hindi', 'Mathematics']","['Science', 'English', 'SocialStudies']",Visual,"['Writing', 'Arts']",Engineer
+288,Student_288,14,10,58,57,52,66,68,50,"['Mathematics', 'SocialStudies', 'Hindi']","['Science', 'English', 'Sanskrit']",Auditory,"['Arts', 'Technology', 'Writing']",Entrepreneur
+289,Student_289,14,10,44,51,91,77,99,72,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Writing', 'Arts']",Artist
+290,Student_290,16,9,74,58,72,85,91,65,"['Hindi', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English']",Auditory,['Arts'],Entrepreneur
+291,Student_291,15,9,74,88,57,61,91,86,"['SocialStudies', 'Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit']",Logical,['Sports'],Artist
+292,Student_292,15,8,71,68,40,51,78,44,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Entrepreneur
+293,Student_293,14,9,92,88,60,94,62,49,"['Mathematics', 'SocialStudies', 'English']","['Science', 'Hindi', 'Sanskrit']",Logical,['Technology'],Government Services
+294,Student_294,16,10,77,80,82,74,50,100,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Sports'],Government Services
+295,Student_295,15,8,59,40,73,94,47,93,"['Sanskrit', 'Mathematics', 'Science']","['English', 'Hindi', 'SocialStudies']",Visual,"['Music', 'Dance', 'Arts']",Doctor
+296,Student_296,16,9,60,98,45,47,71,95,"['Hindi', 'Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English']",Visual,['Reading'],Teacher
+297,Student_297,15,9,91,68,49,53,54,98,"['SocialStudies', 'Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi']",Visual,"['Technology', 'Arts']",Engineer
+298,Student_298,16,9,42,40,63,50,97,43,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Visual,"['Music', 'Sports']",Artist
+299,Student_299,16,10,53,71,48,52,61,93,"['Sanskrit', 'Hindi', 'Mathematics']","['Science', 'English', 'SocialStudies']",Auditory,"['Writing', 'Music', 'Reading']",Entrepreneur
+300,Student_300,16,10,78,54,92,75,73,91,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Arts']",Artist
+301,Student_301,16,8,46,87,85,96,79,78,"['SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Technology', 'Dance']",Artist
+302,Student_302,16,8,44,80,52,97,97,74,"['Science', 'English', 'Hindi']","['Mathematics', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Dance']",Scientist
+303,Student_303,15,10,89,55,44,46,81,58,"['Mathematics', 'Hindi', 'Sanskrit']","['Science', 'English', 'SocialStudies']",Auditory,['Technology'],Teacher
+304,Student_304,16,10,70,74,57,92,89,75,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Engineer
+305,Student_305,16,10,98,45,66,95,88,49,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Writing', 'Dance']",Entrepreneur
+306,Student_306,14,8,75,64,86,77,72,63,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Music']",Doctor
+307,Student_307,16,9,90,52,49,46,75,70,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Visual,['Technology'],Artist
+308,Student_308,15,9,76,79,67,82,45,82,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Reading', 'Music']",Engineer
+309,Student_309,15,8,98,77,96,71,65,88,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,['Technology'],Engineer
+310,Student_310,16,10,69,40,48,86,40,74,"['Hindi', 'Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English']",Kinesthetic,"['Sports', 'Writing']",Teacher
+311,Student_311,14,8,68,61,41,67,88,46,"['Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Sanskrit']",Kinesthetic,"['Reading', 'Music']",Artist
+312,Student_312,15,10,72,47,77,62,75,64,"['Science', 'Hindi', 'English']","['Mathematics', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Music'],Scientist
+313,Student_313,14,10,44,54,93,41,91,58,"['Hindi', 'English', 'Mathematics']","['Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Artist
+314,Student_314,15,10,43,43,49,80,95,66,"['SocialStudies', 'English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Auditory,"['Writing', 'Reading', 'Arts']",Engineer
+315,Student_315,15,8,70,75,78,96,53,78,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Technology']",Teacher
+316,Student_316,15,9,66,49,40,85,67,52,"['SocialStudies', 'Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Sports', 'Music', 'Dance']",Doctor
+317,Student_317,14,10,95,98,74,63,51,41,"['Mathematics', 'SocialStudies', 'Hindi']","['Science', 'English', 'Sanskrit']",Logical,"['Dance', 'Writing', 'Sports']",Artist
+318,Student_318,15,10,67,57,77,65,62,70,"['SocialStudies', 'Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi']",Visual,['Music'],Doctor
+319,Student_319,14,9,40,82,45,62,89,53,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Reading']",Artist
+320,Student_320,16,8,63,45,41,56,81,70,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,['Technology'],Entrepreneur
+321,Student_321,16,9,62,45,76,75,40,53,"['SocialStudies', 'Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit']",Logical,['Writing'],Entrepreneur
+322,Student_322,16,8,69,100,71,62,91,70,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Sports']",Government Services
+323,Student_323,16,9,46,79,92,54,74,95,"['Hindi', 'Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English']",Auditory,"['Music', 'Sports', 'Dance']",Entrepreneur
+324,Student_324,14,8,80,78,48,63,72,56,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Writing']",Doctor
+325,Student_325,14,8,76,90,89,55,90,83,"['Hindi', 'English', 'Mathematics']","['Science', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Arts', 'Writing']",Scientist
+326,Student_326,16,8,48,43,96,55,74,57,"['Mathematics', 'Science', 'SocialStudies']","['English', 'Hindi', 'Sanskrit']",Visual,"['Sports', 'Writing', 'Technology']",Engineer
+327,Student_327,14,8,40,94,50,89,70,43,"['Hindi', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Sanskrit']",Logical,"['Dance', 'Reading', 'Music']",Artist
+328,Student_328,16,9,76,60,58,56,60,56,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Arts']",Scientist
+329,Student_329,15,10,99,86,88,59,81,72,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Logical,"['Reading', 'Music']",Entrepreneur
+330,Student_330,15,10,99,50,70,42,82,89,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Technology'],Doctor
+331,Student_331,16,8,59,75,82,50,59,85,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Doctor
+332,Student_332,16,8,80,98,60,46,85,57,"['English', 'Science', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Technology', 'Music']",Scientist
+333,Student_333,14,10,42,55,88,88,95,50,"['Mathematics', 'English', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Kinesthetic,"['Dance', 'Sports']",Doctor
+334,Student_334,16,9,84,81,70,80,71,41,"['Sanskrit', 'Mathematics', 'Science']","['English', 'Hindi', 'SocialStudies']",Logical,"['Technology', 'Arts']",Engineer
+335,Student_335,16,8,57,82,79,83,96,92,"['Mathematics', 'Hindi']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Sports']",Artist
+336,Student_336,15,8,48,51,57,72,46,56,"['SocialStudies', 'Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit']",Visual,['Technology'],Entrepreneur
+337,Student_337,14,8,43,92,91,95,63,80,"['SocialStudies', 'Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi']",Visual,"['Dance', 'Arts', 'Music']",Scientist
+338,Student_338,15,9,72,74,80,85,88,68,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Dance', 'Writing']",Entrepreneur
+339,Student_339,14,9,54,52,41,52,83,50,"['SocialStudies', 'English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Auditory,"['Dance', 'Arts']",Doctor
+340,Student_340,15,9,46,97,94,90,58,79,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Sports', 'Music']",Entrepreneur
+341,Student_341,15,10,79,90,75,97,40,68,"['SocialStudies', 'Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit']",Auditory,['Writing'],Artist
+342,Student_342,16,8,61,79,59,53,61,74,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Music', 'Technology']",Scientist
+343,Student_343,14,10,49,76,50,72,87,68,"['Mathematics', 'SocialStudies', 'Hindi']","['Science', 'English', 'Sanskrit']",Kinesthetic,['Dance'],Scientist
+344,Student_344,16,10,44,55,97,69,91,97,"['Sanskrit', 'Mathematics', 'Hindi']","['Science', 'English', 'SocialStudies']",Kinesthetic,"['Technology', 'Dance', 'Sports']",Artist
+345,Student_345,16,9,71,96,77,50,81,44,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Sports'],Government Services
+346,Student_346,15,9,81,95,66,95,62,79,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Logical,"['Dance', 'Arts']",Engineer
+347,Student_347,14,8,46,44,76,56,77,83,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Technology', 'Sports', 'Arts']",Scientist
+348,Student_348,15,10,89,79,54,72,49,61,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Visual,"['Technology', 'Music', 'Writing']",Scientist
+349,Student_349,16,10,55,43,56,83,86,86,"['Mathematics', 'Hindi', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Arts', 'Reading']",Government Services
+350,Student_350,16,10,77,56,70,71,79,53,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Auditory,['Reading'],Scientist
+351,Student_351,14,10,94,99,40,83,75,81,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Technology', 'Reading', 'Dance']",Scientist
+352,Student_352,14,10,90,48,93,78,77,96,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Kinesthetic,"['Sports', 'Writing', 'Reading']",Government Services
+353,Student_353,15,9,79,65,66,97,74,90,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Reading', 'Writing']",Government Services
+354,Student_354,14,9,43,50,97,69,58,77,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Reading']",Scientist
+355,Student_355,14,9,54,44,79,74,82,89,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Technology', 'Dance']",Teacher
+356,Student_356,16,8,58,72,87,94,86,98,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Dance', 'Arts']",Government Services
+357,Student_357,15,8,68,87,74,97,86,75,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Sports', 'Dance']",Scientist
+358,Student_358,16,9,94,64,67,73,47,53,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Reading']",Doctor
+359,Student_359,16,8,55,74,82,65,58,52,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Reading'],Artist
+360,Student_360,15,9,80,86,70,68,100,78,"['Hindi', 'English', 'Science']","['Mathematics', 'Sanskrit', 'SocialStudies']",Logical,['Dance'],Doctor
+361,Student_361,15,9,85,96,40,55,65,74,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Arts', 'Dance']",Artist
+362,Student_362,15,10,93,91,41,74,45,87,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Auditory,['Technology'],Engineer
+363,Student_363,15,9,68,97,65,71,95,41,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Arts', 'Reading']",Government Services
+364,Student_364,16,10,46,92,62,73,88,43,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Dance'],Engineer
+365,Student_365,14,8,84,62,71,48,72,81,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,['Arts'],Doctor
+366,Student_366,15,10,91,50,96,61,53,46,"['SocialStudies', 'Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English']",Visual,"['Reading', 'Technology']",Scientist
+367,Student_367,15,10,67,61,100,55,41,88,"['English', 'Science', 'SocialStudies']","['Mathematics', 'Hindi', 'Sanskrit']",Logical,['Reading'],Scientist
+368,Student_368,16,10,54,69,56,63,54,69,"['Mathematics', 'Sanskrit', 'English']","['Science', 'Hindi', 'SocialStudies']",Logical,['Arts'],Government Services
+369,Student_369,14,10,84,89,41,99,94,76,"['Sanskrit', 'Science', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Arts', 'Writing']",Teacher
+370,Student_370,15,9,65,45,50,41,76,71,"['Sanskrit', 'Science', 'Mathematics']","['English', 'Hindi', 'SocialStudies']",Visual,['Reading'],Doctor
+371,Student_371,16,8,62,72,45,40,75,77,"['Hindi', 'Sanskrit', 'Mathematics']","['Science', 'English', 'SocialStudies']",Logical,"['Music', 'Writing']",Government Services
+372,Student_372,16,10,62,61,72,55,68,46,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Writing']",Entrepreneur
+373,Student_373,15,8,82,77,62,75,93,54,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Music', 'Sports']",Entrepreneur
+374,Student_374,14,9,92,55,81,55,78,70,"['Mathematics', 'English', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Visual,"['Writing', 'Dance', 'Reading']",Engineer
+375,Student_375,14,10,43,73,77,66,98,57,"['Hindi', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English']",Kinesthetic,"['Sports', 'Writing']",Engineer
+376,Student_376,14,8,54,42,47,93,92,70,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Music']",Scientist
+377,Student_377,15,10,46,49,88,89,51,99,"['Mathematics', 'Sanskrit', 'Science']","['English', 'Hindi', 'SocialStudies']",Visual,"['Arts', 'Technology']",Entrepreneur
+378,Student_378,14,9,87,60,54,81,97,61,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Artist
+379,Student_379,16,9,86,63,51,73,80,41,"['Mathematics', 'SocialStudies', 'Hindi']","['Science', 'English', 'Sanskrit']",Visual,"['Technology', 'Music']",Teacher
+380,Student_380,15,10,60,63,55,98,78,67,"['Sanskrit', 'Mathematics', 'Hindi']","['Science', 'English', 'SocialStudies']",Auditory,"['Sports', 'Technology', 'Reading']",Doctor
+381,Student_381,14,10,60,96,63,49,81,55,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Dance', 'Music', 'Arts']",Government Services
+382,Student_382,14,10,80,65,49,51,83,47,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Reading'],Artist
+383,Student_383,14,10,65,57,98,70,57,86,"['Sanskrit', 'Hindi', 'Mathematics']","['Science', 'English', 'SocialStudies']",Logical,"['Music', 'Dance']",Government Services
+384,Student_384,14,10,42,78,46,53,88,62,"['Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Sanskrit']",Auditory,"['Music', 'Reading']",Entrepreneur
+385,Student_385,14,9,76,42,99,57,89,91,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Writing']",Entrepreneur
+386,Student_386,15,10,64,86,61,59,91,63,"['Mathematics', 'SocialStudies', 'Science']","['English', 'Hindi', 'Sanskrit']",Visual,['Music'],Teacher
+387,Student_387,16,8,90,70,87,63,42,77,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Dance', 'Writing']",Entrepreneur
+388,Student_388,14,9,94,60,48,56,86,78,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Reading'],Engineer
+389,Student_389,14,8,74,62,87,45,89,65,"['Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Reading'],Artist
+390,Student_390,15,10,93,61,42,87,54,82,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Kinesthetic,['Technology'],Doctor
+391,Student_391,15,8,49,51,80,67,65,73,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Sports', 'Technology']",Teacher
+392,Student_392,16,10,78,44,43,77,84,66,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Technology', 'Writing']",Engineer
+393,Student_393,15,8,100,47,42,88,81,90,"['Hindi', 'Science', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Kinesthetic,"['Dance', 'Writing', 'Arts']",Doctor
+394,Student_394,15,10,58,83,95,68,89,52,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Kinesthetic,"['Dance', 'Arts']",Teacher
+395,Student_395,14,8,46,48,98,54,85,85,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Music', 'Sports']",Entrepreneur
+396,Student_396,15,9,40,91,52,94,76,53,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Arts', 'Dance']",Artist
+397,Student_397,15,9,74,94,40,78,86,63,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Reading', 'Technology', 'Music']",Teacher
+398,Student_398,14,8,83,93,57,51,66,49,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Technology']",Doctor
+399,Student_399,16,10,76,59,95,98,41,86,"['Mathematics', 'Science', 'Sanskrit']","['English', 'Hindi', 'SocialStudies']",Logical,"['Writing', 'Sports']",Entrepreneur
+400,Student_400,15,8,56,68,79,53,81,90,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Visual,"['Writing', 'Technology']",Scientist
+401,Student_401,16,8,59,50,73,75,46,72,"['SocialStudies', 'Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Arts', 'Sports']",Engineer
+402,Student_402,16,8,42,85,43,92,47,59,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Technology', 'Writing']",Doctor
+403,Student_403,16,9,80,97,71,64,94,94,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Writing', 'Sports', 'Reading']",Doctor
+404,Student_404,14,10,71,87,80,53,61,99,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Sports']",Artist
+405,Student_405,16,8,91,93,74,93,94,96,"['English', 'Mathematics', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Logical,"['Arts', 'Sports']",Entrepreneur
+406,Student_406,14,9,45,91,55,100,87,91,"['Sanskrit', 'SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi']",Logical,['Music'],Artist
+407,Student_407,16,9,86,77,50,93,49,71,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Music']",Government Services
+408,Student_408,14,10,65,90,86,59,63,80,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Arts', 'Sports']",Entrepreneur
+409,Student_409,14,8,93,62,64,93,95,53,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Logical,['Music'],Entrepreneur
+410,Student_410,15,8,98,67,73,85,98,87,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,['Technology'],Artist
+411,Student_411,15,8,87,83,48,56,64,90,"['SocialStudies', 'Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi']",Auditory,"['Reading', 'Writing', 'Dance']",Entrepreneur
+412,Student_412,16,8,48,88,88,73,87,43,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,"['Sports', 'Dance']",Doctor
+413,Student_413,14,8,97,75,60,54,62,100,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Kinesthetic,"['Writing', 'Dance']",Teacher
+414,Student_414,15,8,41,89,40,48,76,41,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Reading']",Doctor
+415,Student_415,14,10,42,94,48,43,48,51,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Reading'],Entrepreneur
+416,Student_416,16,10,100,79,57,43,61,49,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,"['Writing', 'Sports']",Entrepreneur
+417,Student_417,14,10,64,52,98,73,41,98,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,['Music'],Entrepreneur
+418,Student_418,16,8,91,48,91,58,68,43,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Doctor
+419,Student_419,16,10,66,47,63,55,86,74,"['Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Logical,['Music'],Artist
+420,Student_420,16,10,55,76,87,95,58,77,"['SocialStudies', 'English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit']",Logical,"['Dance', 'Reading', 'Technology']",Teacher
+421,Student_421,16,9,61,62,42,90,73,93,"['Hindi', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Sanskrit']",Kinesthetic,"['Technology', 'Dance']",Doctor
+422,Student_422,16,10,49,45,57,67,86,64,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Dance', 'Music']",Scientist
+423,Student_423,14,9,43,97,88,51,46,60,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Music'],Scientist
+424,Student_424,16,10,82,42,51,69,80,44,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Reading']",Doctor
+425,Student_425,15,9,81,41,93,91,84,44,"['Sanskrit', 'English', 'Hindi']","['Mathematics', 'Science', 'SocialStudies']",Logical,"['Technology', 'Dance']",Government Services
+426,Student_426,15,8,64,64,97,89,42,94,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Reading', 'Technology']",Scientist
+427,Student_427,15,10,90,43,63,60,96,69,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Sports'],Entrepreneur
+428,Student_428,14,9,41,68,56,83,72,62,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,"['Music', 'Dance', 'Technology']",Doctor
+429,Student_429,16,8,79,72,93,59,52,81,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Technology']",Government Services
+430,Student_430,15,9,46,44,79,57,78,49,"['Hindi', 'Science', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Logical,"['Dance', 'Technology', 'Sports']",Entrepreneur
+431,Student_431,15,10,61,60,54,57,79,73,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Scientist
+432,Student_432,14,10,74,83,72,60,75,85,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Dance'],Scientist
+433,Student_433,15,8,75,69,59,89,81,50,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Teacher
+434,Student_434,14,8,68,98,58,73,94,96,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts']",Scientist
+435,Student_435,14,10,91,53,43,89,71,100,"['Science', 'Hindi', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Visual,"['Music', 'Writing']",Artist
+436,Student_436,14,8,67,76,50,54,77,78,"['SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Sports'],Government Services
+437,Student_437,15,10,73,75,97,90,76,82,"['SocialStudies', 'Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi']",Kinesthetic,"['Music', 'Technology', 'Sports']",Entrepreneur
+438,Student_438,14,10,53,57,60,60,97,67,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Reading', 'Technology']",Artist
+439,Student_439,15,9,66,87,57,57,43,49,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Visual,"['Writing', 'Dance', 'Arts']",Doctor
+440,Student_440,15,8,61,83,93,95,68,40,"['English', 'Science', 'Hindi']","['Mathematics', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Arts']",Teacher
+441,Student_441,15,9,89,69,88,42,91,95,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Visual,"['Arts', 'Technology']",Engineer
+442,Student_442,14,10,76,68,92,40,86,99,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Arts', 'Writing']",Scientist
+443,Student_443,15,8,61,85,98,76,73,49,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Entrepreneur
+444,Student_444,14,9,98,79,51,43,64,56,"['English', 'Mathematics', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Kinesthetic,['Reading'],Entrepreneur
+445,Student_445,15,9,75,81,94,68,79,64,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,"['Dance', 'Music', 'Reading']",Entrepreneur
+446,Student_446,14,8,53,70,88,56,67,49,"['Hindi', 'Sanskrit', 'English']","['Mathematics', 'Science', 'SocialStudies']",Logical,"['Music', 'Arts']",Government Services
+447,Student_447,14,10,81,88,96,87,47,89,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Government Services
+448,Student_448,14,10,60,97,40,92,94,42,"['Hindi', 'Science', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Reading', 'Sports']",Entrepreneur
+449,Student_449,15,10,56,98,62,96,100,50,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Government Services
+450,Student_450,14,9,70,93,88,85,71,89,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Visual,"['Arts', 'Writing', 'Music']",Teacher
+451,Student_451,14,8,61,98,68,80,84,63,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Dance', 'Reading', 'Technology']",Government Services
+452,Student_452,15,10,88,41,73,48,45,94,"['Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Sports']",Artist
+453,Student_453,16,10,53,84,91,55,84,77,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Reading', 'Dance', 'Music']",Engineer
+454,Student_454,15,8,51,96,98,47,74,48,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Reading'],Teacher
+455,Student_455,14,9,51,100,45,52,62,73,"['Sanskrit', 'SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi']",Auditory,"['Writing', 'Sports']",Scientist
+456,Student_456,14,10,46,96,65,99,88,61,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Scientist
+457,Student_457,16,9,58,59,87,72,69,78,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Arts']",Doctor
+458,Student_458,16,10,70,43,52,53,97,99,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Music', 'Arts']",Teacher
+459,Student_459,14,8,49,57,77,67,68,67,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Auditory,"['Arts', 'Music']",Engineer
+460,Student_460,15,9,72,96,57,70,84,99,"['SocialStudies', 'English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Logical,"['Technology', 'Writing', 'Arts']",Government Services
+461,Student_461,16,9,74,67,79,83,52,52,"['Mathematics', 'English', 'Hindi']","['Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Arts']",Scientist
+462,Student_462,14,8,76,95,96,73,98,51,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Dance', 'Reading']",Scientist
+463,Student_463,14,8,63,93,86,56,77,72,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Reading'],Entrepreneur
+464,Student_464,16,10,40,52,81,53,58,100,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Reading'],Teacher
+465,Student_465,14,9,48,53,81,62,96,59,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Entrepreneur
+466,Student_466,14,9,60,49,56,71,75,89,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Sports', 'Music', 'Arts']",Artist
+467,Student_467,14,8,77,81,97,74,91,47,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Logical,"['Reading', 'Music', 'Writing']",Artist
+468,Student_468,15,9,88,93,53,41,66,99,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Auditory,['Writing'],Entrepreneur
+469,Student_469,16,10,61,48,76,51,89,61,"['Science', 'Mathematics', 'English']","['Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Dance']",Government Services
+470,Student_470,14,10,84,99,44,42,52,85,"['Hindi', 'Science', 'SocialStudies']","['Mathematics', 'English', 'Sanskrit']",Auditory,['Arts'],Government Services
+471,Student_471,15,8,46,78,85,47,100,55,"['SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi', 'Sanskrit']",Visual,['Arts'],Artist
+472,Student_472,15,10,100,70,42,69,97,64,"['Mathematics', 'Sanskrit', 'Hindi']","['Science', 'English', 'SocialStudies']",Auditory,['Writing'],Government Services
+473,Student_473,16,10,100,40,89,93,61,72,"['English', 'Science', 'Hindi']","['Mathematics', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Writing']",Engineer
+474,Student_474,16,9,78,83,71,58,72,64,"['Hindi', 'Mathematics', 'Sanskrit']","['Science', 'English', 'SocialStudies']",Kinesthetic,"['Arts', 'Music', 'Dance']",Government Services
+475,Student_475,15,10,59,95,83,52,69,63,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Dance', 'Sports']",Engineer
+476,Student_476,15,9,99,63,45,82,89,80,"['Science', 'Mathematics', 'English']","['Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Music', 'Sports']",Engineer
+477,Student_477,14,9,40,98,46,41,62,85,"['Mathematics', 'SocialStudies', 'Science']","['English', 'Hindi', 'Sanskrit']",Auditory,"['Reading', 'Writing', 'Dance']",Artist
+478,Student_478,15,8,69,55,74,67,52,41,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Music', 'Dance', 'Reading']",Artist
+479,Student_479,15,10,91,51,62,78,56,43,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Visual,"['Music', 'Sports']",Doctor
+480,Student_480,16,10,87,92,85,44,68,58,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Reading', 'Dance', 'Arts']",Artist
+481,Student_481,15,10,56,56,51,97,44,82,"['English', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Logical,"['Arts', 'Reading', 'Writing']",Entrepreneur
+482,Student_482,15,10,84,88,53,83,73,40,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Doctor
+483,Student_483,16,8,73,58,68,79,51,93,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Dance']",Entrepreneur
+484,Student_484,16,10,80,93,98,70,85,45,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Music', 'Writing']",Artist
+485,Student_485,14,8,85,50,90,94,81,53,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Writing', 'Sports']",Artist
+486,Student_486,14,8,57,89,73,79,100,65,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Logical,"['Writing', 'Arts']",Teacher
+487,Student_487,14,10,43,82,72,91,73,98,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Artist
+488,Student_488,15,10,76,56,46,72,71,90,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Technology']",Engineer
+489,Student_489,14,9,40,60,74,66,59,60,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Music', 'Reading']",Artist
+490,Student_490,14,10,52,43,66,96,46,98,"['Science', 'Mathematics', 'SocialStudies']","['English', 'Hindi', 'Sanskrit']",Kinesthetic,['Dance'],Government Services
+491,Student_491,16,9,90,98,41,96,63,48,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Reading', 'Writing', 'Arts']",Entrepreneur
+492,Student_492,16,10,65,60,81,66,66,69,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,['Sports'],Entrepreneur
+493,Student_493,15,9,48,59,81,96,99,91,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Artist
+494,Student_494,16,9,69,95,44,48,41,75,"['English', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Auditory,['Sports'],Teacher
+495,Student_495,16,10,53,94,60,85,94,96,"['SocialStudies', 'Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi']",Logical,"['Dance', 'Reading']",Doctor
+496,Student_496,16,9,40,75,89,73,64,40,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Dance', 'Sports', 'Music']",Engineer
+497,Student_497,16,10,93,93,80,96,82,73,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Reading', 'Arts']",Entrepreneur
+498,Student_498,15,10,74,69,47,65,94,60,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Technology', 'Dance']",Teacher
+499,Student_499,16,9,62,70,64,64,54,44,"['Mathematics', 'Hindi', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Kinesthetic,['Music'],Government Services
+500,Student_500,15,10,93,48,51,97,57,93,"['Science', 'Hindi', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Technology', 'Reading']",Teacher
+501,Student_501,15,10,43,60,84,79,57,52,"['Sanskrit', 'Mathematics', 'Science']","['English', 'Hindi', 'SocialStudies']",Visual,"['Technology', 'Arts']",Doctor
+502,Student_502,15,8,96,71,99,68,78,52,"['SocialStudies', 'English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Visual,"['Arts', 'Dance', 'Sports']",Engineer
+503,Student_503,15,10,84,100,89,90,71,90,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Technology', 'Reading']",Artist
+504,Student_504,16,9,70,76,42,53,69,87,"['Sanskrit', 'English', 'Science']","['Mathematics', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Reading']",Scientist
+505,Student_505,16,8,47,85,100,92,65,88,"['Sanskrit', 'Science', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Auditory,['Music'],Doctor
+506,Student_506,14,9,87,61,56,96,93,70,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Writing'],Engineer
+507,Student_507,16,10,95,79,85,44,86,86,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,"['Technology', 'Reading', 'Sports']",Teacher
+508,Student_508,14,10,52,44,44,67,55,72,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Dance'],Doctor
+509,Student_509,16,8,74,81,63,57,97,52,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Kinesthetic,"['Sports', 'Reading']",Scientist
+510,Student_510,15,9,42,68,48,83,88,63,"['SocialStudies', 'Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit']",Logical,"['Reading', 'Music', 'Technology']",Entrepreneur
+511,Student_511,16,9,69,79,100,85,94,92,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Arts'],Artist
+512,Student_512,14,8,49,55,69,78,82,53,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Music']",Engineer
+513,Student_513,15,9,49,41,51,84,52,53,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Visual,"['Technology', 'Reading', 'Writing']",Doctor
+514,Student_514,15,8,77,56,89,43,47,49,"['Hindi', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Logical,"['Technology', 'Arts', 'Dance']",Entrepreneur
+515,Student_515,16,9,59,51,44,64,90,98,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Dance', 'Music']",Government Services
+516,Student_516,15,8,96,71,52,85,40,77,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Arts']",Artist
+517,Student_517,16,9,98,69,87,98,49,53,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Kinesthetic,"['Technology', 'Writing']",Entrepreneur
+518,Student_518,15,9,73,67,100,51,65,79,"['SocialStudies', 'Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi']",Kinesthetic,"['Writing', 'Arts']",Teacher
+519,Student_519,14,8,66,98,78,87,94,52,"['Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Sanskrit']",Kinesthetic,"['Music', 'Sports']",Engineer
+520,Student_520,14,9,87,58,61,44,86,95,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Dance', 'Arts', 'Sports']",Scientist
+521,Student_521,15,8,84,57,58,86,100,95,"['Hindi', 'Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English']",Visual,"['Music', 'Reading']",Government Services
+522,Student_522,16,10,73,92,98,50,68,49,"['SocialStudies', 'Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit']",Logical,"['Writing', 'Arts', 'Reading']",Entrepreneur
+523,Student_523,14,10,61,63,87,87,78,62,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Writing', 'Sports', 'Arts']",Scientist
+524,Student_524,16,8,86,82,65,86,95,62,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Auditory,"['Reading', 'Music']",Entrepreneur
+525,Student_525,14,10,59,62,97,49,42,67,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,['Writing'],Artist
+526,Student_526,14,8,99,94,93,58,54,42,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Dance', 'Music', 'Writing']",Teacher
+527,Student_527,16,10,48,48,55,70,73,89,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Reading'],Artist
+528,Student_528,14,9,94,86,95,72,59,81,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Entrepreneur
+529,Student_529,14,9,51,52,85,97,60,76,"['Mathematics', 'Science', 'SocialStudies']","['English', 'Hindi', 'Sanskrit']",Logical,"['Sports', 'Music']",Doctor
+530,Student_530,15,9,72,50,68,73,85,95,"['Science', 'Sanskrit', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Visual,"['Technology', 'Dance']",Engineer
+531,Student_531,16,9,42,72,48,97,52,65,"['Science', 'Sanskrit', 'Hindi']","['Mathematics', 'English', 'SocialStudies']",Kinesthetic,"['Technology', 'Dance', 'Sports']",Entrepreneur
+532,Student_532,16,10,61,85,48,45,88,92,"['English', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Kinesthetic,"['Arts', 'Music']",Entrepreneur
+533,Student_533,16,8,89,100,72,81,80,72,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Writing', 'Music']",Entrepreneur
+534,Student_534,14,10,53,84,71,59,51,73,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Auditory,"['Arts', 'Writing', 'Reading']",Engineer
+535,Student_535,15,10,63,94,41,91,58,49,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Logical,"['Technology', 'Music']",Artist
+536,Student_536,14,8,52,58,45,100,95,42,"['Mathematics', 'Sanskrit', 'SocialStudies']","['Science', 'English', 'Hindi']",Auditory,"['Music', 'Dance', 'Technology']",Teacher
+537,Student_537,16,9,70,99,87,55,71,53,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Dance', 'Music']",Doctor
+538,Student_538,15,9,63,44,88,67,56,92,"['Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Sanskrit']",Kinesthetic,"['Writing', 'Arts', 'Music']",Engineer
+539,Student_539,15,9,41,49,100,70,89,57,"['Mathematics', 'English', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Auditory,"['Writing', 'Technology', 'Sports']",Engineer
+540,Student_540,15,9,60,76,86,48,64,56,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Music']",Scientist
+541,Student_541,16,8,65,78,73,67,57,99,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Technology']",Scientist
+542,Student_542,16,9,100,81,89,58,40,72,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Arts', 'Technology']",Doctor
+543,Student_543,14,8,68,84,85,79,78,93,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Arts', 'Reading']",Scientist
+544,Student_544,15,10,66,66,58,51,49,77,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Reading']",Government Services
+545,Student_545,15,10,74,54,88,53,86,68,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Dance'],Teacher
+546,Student_546,15,9,54,55,68,80,48,89,"['Mathematics', 'Sanskrit', 'Hindi']","['Science', 'English', 'SocialStudies']",Visual,['Reading'],Entrepreneur
+547,Student_547,16,9,49,46,94,96,93,86,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Reading', 'Arts']",Teacher
+548,Student_548,16,10,80,99,42,41,96,98,"['Mathematics', 'Sanskrit', 'English']","['Science', 'Hindi', 'SocialStudies']",Visual,['Technology'],Scientist
+549,Student_549,16,10,53,90,78,67,93,97,"['SocialStudies', 'Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi']",Kinesthetic,"['Reading', 'Writing']",Entrepreneur
+550,Student_550,16,8,69,45,88,87,58,80,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Scientist
+551,Student_551,15,9,43,73,43,82,74,52,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Technology'],Entrepreneur
+552,Student_552,15,8,48,84,70,58,60,42,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Dance']",Government Services
+553,Student_553,14,9,57,46,82,64,85,57,"['SocialStudies', 'Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi']",Logical,['Music'],Artist
+554,Student_554,15,10,98,78,73,51,63,51,"['Mathematics', 'Hindi', 'Sanskrit']","['Science', 'English', 'SocialStudies']",Kinesthetic,"['Reading', 'Dance']",Entrepreneur
+555,Student_555,14,9,91,78,89,42,91,46,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts', 'Sports']",Scientist
+556,Student_556,16,10,42,75,86,97,56,58,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,['Reading'],Doctor
+557,Student_557,14,8,55,47,69,72,100,69,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Reading', 'Music']",Entrepreneur
+558,Student_558,14,10,57,94,78,58,92,54,"['Hindi', 'Sanskrit', 'Mathematics']","['Science', 'English', 'SocialStudies']",Visual,['Technology'],Government Services
+559,Student_559,16,8,85,68,56,95,72,46,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Visual,"['Technology', 'Reading']",Scientist
+560,Student_560,16,8,84,95,81,41,45,66,"['Science', 'Hindi', 'SocialStudies']","['Mathematics', 'English', 'Sanskrit']",Logical,"['Sports', 'Writing', 'Dance']",Doctor
+561,Student_561,15,9,68,71,48,99,41,83,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Artist
+562,Student_562,14,10,55,53,96,43,98,91,"['English', 'Science', 'SocialStudies']","['Mathematics', 'Hindi', 'Sanskrit']",Kinesthetic,"['Music', 'Dance']",Scientist
+563,Student_563,15,9,57,92,96,70,50,92,"['Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Music', 'Dance', 'Writing']",Teacher
+564,Student_564,15,9,52,75,68,72,80,72,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Technology', 'Music']",Entrepreneur
+565,Student_565,14,10,51,46,65,76,61,52,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Reading', 'Arts']",Artist
+566,Student_566,16,9,46,41,59,66,50,72,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,"['Sports', 'Writing']",Entrepreneur
+567,Student_567,15,8,60,74,91,61,85,49,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,['Writing'],Teacher
+568,Student_568,14,9,66,100,83,66,62,90,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Dance'],Government Services
+569,Student_569,15,10,41,56,100,66,88,47,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Reading', 'Arts']",Teacher
+570,Student_570,15,8,63,95,41,57,48,90,"['Mathematics', 'SocialStudies', 'Science']","['English', 'Hindi', 'Sanskrit']",Logical,"['Writing', 'Reading']",Teacher
+571,Student_571,15,8,41,94,44,48,91,77,"['Science', 'SocialStudies', 'Mathematics']","['English', 'Hindi', 'Sanskrit']",Visual,"['Reading', 'Technology']",Entrepreneur
+572,Student_572,15,8,72,48,45,99,67,51,"['Science', 'Hindi', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Logical,"['Sports', 'Dance', 'Technology']",Artist
+573,Student_573,14,9,66,70,54,65,81,65,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Reading', 'Arts']",Entrepreneur
+574,Student_574,16,9,44,71,67,40,87,72,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Reading', 'Sports']",Artist
+575,Student_575,16,9,95,92,51,96,90,43,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Writing', 'Dance', 'Sports']",Teacher
+576,Student_576,15,10,78,58,60,83,75,80,"['Sanskrit', 'Science', 'Mathematics']","['English', 'Hindi', 'SocialStudies']",Logical,['Writing'],Entrepreneur
+577,Student_577,15,10,42,94,70,93,82,74,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Arts'],Government Services
+578,Student_578,14,9,47,81,42,51,63,58,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Reading', 'Sports']",Government Services
+579,Student_579,14,10,81,65,55,67,43,99,"['English', 'Science', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Reading', 'Music']",Entrepreneur
+580,Student_580,15,9,71,67,72,48,73,48,"['Sanskrit', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English']",Kinesthetic,['Arts'],Scientist
+581,Student_581,15,8,91,43,48,65,56,88,"['English', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Auditory,['Dance'],Scientist
+582,Student_582,15,9,94,77,46,45,43,54,"['Science', 'English', 'Sanskrit']","['Mathematics', 'Hindi', 'SocialStudies']",Logical,"['Sports', 'Dance', 'Technology']",Doctor
+583,Student_583,14,10,55,48,55,68,73,45,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Reading']",Government Services
+584,Student_584,15,9,89,68,79,51,45,83,"['Science', 'Sanskrit', 'English']","['Mathematics', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Arts']",Doctor
+585,Student_585,14,8,95,82,54,68,74,52,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Writing', 'Sports']",Doctor
+586,Student_586,16,10,92,78,95,66,67,81,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Logical,"['Reading', 'Music', 'Writing']",Scientist
+587,Student_587,14,8,64,65,87,74,64,98,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Reading', 'Sports', 'Dance']",Teacher
+588,Student_588,15,8,54,41,64,61,78,69,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Kinesthetic,"['Technology', 'Dance', 'Reading']",Doctor
+589,Student_589,15,10,65,53,47,62,69,69,"['SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Sports', 'Technology', 'Music']",Scientist
+590,Student_590,16,9,91,88,79,88,70,73,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Kinesthetic,"['Arts', 'Music']",Scientist
+591,Student_591,14,8,90,94,91,96,43,46,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Logical,"['Music', 'Sports', 'Technology']",Teacher
+592,Student_592,14,8,56,54,81,67,81,72,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,['Technology'],Teacher
+593,Student_593,16,9,87,40,56,76,49,98,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Sports']",Teacher
+594,Student_594,14,8,56,95,64,70,96,68,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Writing']",Entrepreneur
+595,Student_595,16,10,85,67,78,50,66,95,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Dance', 'Arts', 'Technology']",Teacher
+596,Student_596,15,9,94,79,60,42,77,92,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Visual,"['Sports', 'Music', 'Technology']",Doctor
+597,Student_597,14,10,58,79,79,42,83,98,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Dance']",Government Services
+598,Student_598,14,8,56,83,45,97,45,99,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Arts']",Scientist
+599,Student_599,15,9,98,92,75,86,40,92,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Dance', 'Reading', 'Music']",Scientist
+600,Student_600,16,9,69,46,59,48,95,99,"['Mathematics', 'Sanskrit', 'English']","['Science', 'Hindi', 'SocialStudies']",Logical,['Writing'],Entrepreneur
+601,Student_601,14,10,44,54,62,77,84,63,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Arts', 'Dance', 'Technology']",Government Services
+602,Student_602,14,8,77,41,49,71,52,65,"['Hindi', 'English', 'Mathematics']","['Science', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Dance', 'Writing']",Entrepreneur
+603,Student_603,16,8,58,41,80,94,54,57,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Reading']",Scientist
+604,Student_604,14,8,76,45,56,72,42,67,"['Hindi', 'Science', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Logical,"['Reading', 'Music', 'Writing']",Engineer
+605,Student_605,16,9,43,70,67,67,72,65,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Writing', 'Dance', 'Sports']",Government Services
+606,Student_606,16,10,68,53,89,70,99,80,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Kinesthetic,"['Sports', 'Arts']",Government Services
+607,Student_607,15,9,60,56,87,64,72,59,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Scientist
+608,Student_608,14,10,82,70,69,76,95,93,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Kinesthetic,['Technology'],Doctor
+609,Student_609,16,9,47,89,100,66,74,84,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Reading']",Government Services
+610,Student_610,14,8,92,92,80,75,58,49,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Dance', 'Writing']",Government Services
+611,Student_611,14,8,58,70,96,96,54,74,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Logical,"['Music', 'Reading', 'Technology']",Artist
+612,Student_612,14,9,60,71,99,83,52,43,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Logical,"['Writing', 'Music']",Entrepreneur
+613,Student_613,15,8,40,68,88,74,65,88,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Reading']",Doctor
+614,Student_614,16,10,61,61,57,62,94,71,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Reading', 'Dance']",Doctor
+615,Student_615,14,10,91,99,84,71,55,51,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Sports'],Entrepreneur
+616,Student_616,16,9,48,85,98,97,85,47,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Visual,['Reading'],Teacher
+617,Student_617,14,9,46,73,82,98,44,63,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Dance', 'Technology', 'Reading']",Entrepreneur
+618,Student_618,15,10,44,64,58,53,86,57,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Reading'],Doctor
+619,Student_619,16,8,89,45,40,79,81,80,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Sports', 'Technology']",Artist
+620,Student_620,14,9,97,82,54,42,90,85,"['SocialStudies', 'Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit']",Auditory,"['Dance', 'Music', 'Technology']",Doctor
+621,Student_621,16,10,79,89,60,67,94,41,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Arts']",Teacher
+622,Student_622,15,9,93,58,82,89,77,49,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Reading']",Teacher
+623,Student_623,15,10,41,88,51,89,44,43,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,['Arts'],Government Services
+624,Student_624,14,9,81,84,100,92,47,98,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Visual,"['Dance', 'Music']",Scientist
+625,Student_625,15,10,61,97,46,75,100,87,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Visual,['Music'],Artist
+626,Student_626,14,8,63,76,100,44,89,40,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Reading', 'Dance']",Engineer
+627,Student_627,16,8,46,57,63,54,48,83,"['Science', 'SocialStudies', 'Hindi']","['Mathematics', 'English', 'Sanskrit']",Logical,"['Sports', 'Writing', 'Reading']",Engineer
+628,Student_628,15,8,40,54,89,75,79,51,"['English', 'Sanskrit', 'Mathematics']","['Science', 'Hindi', 'SocialStudies']",Auditory,['Dance'],Scientist
+629,Student_629,15,8,94,94,69,40,88,80,"['Hindi', 'English', 'Science']","['Mathematics', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Scientist
+630,Student_630,16,10,45,76,68,58,92,64,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Sports'],Scientist
+631,Student_631,14,8,49,81,56,62,63,56,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Technology', 'Arts', 'Dance']",Government Services
+632,Student_632,14,9,83,94,68,99,60,61,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Music']",Entrepreneur
+633,Student_633,16,8,74,60,40,86,66,41,"['Sanskrit', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi']",Auditory,['Music'],Engineer
+634,Student_634,16,9,40,44,88,42,94,95,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Sports', 'Technology']",Teacher
+635,Student_635,15,10,49,55,63,87,100,72,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Technology', 'Music']",Government Services
+636,Student_636,15,8,73,96,68,80,95,89,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Auditory,"['Writing', 'Sports', 'Reading']",Doctor
+637,Student_637,14,9,62,56,53,75,41,68,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Reading', 'Sports']",Entrepreneur
+638,Student_638,16,8,100,46,50,65,69,40,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,['Dance'],Teacher
+639,Student_639,14,8,81,71,71,53,82,78,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Music'],Government Services
+640,Student_640,15,9,88,53,96,55,92,40,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Auditory,['Music'],Scientist
+641,Student_641,16,9,56,88,84,50,82,70,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Dance', 'Technology', 'Sports']",Doctor
+642,Student_642,16,10,55,93,52,56,46,70,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Arts', 'Sports', 'Dance']",Doctor
+643,Student_643,14,10,54,59,44,82,76,65,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Logical,"['Arts', 'Music']",Artist
+644,Student_644,16,10,63,86,53,94,80,50,"['Science', 'Hindi', 'English']","['Mathematics', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Writing', 'Reading']",Artist
+645,Student_645,15,9,94,100,75,48,63,44,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Music']",Engineer
+646,Student_646,14,8,55,52,82,85,56,42,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Writing', 'Arts']",Doctor
+647,Student_647,15,8,80,51,69,70,65,71,"['Mathematics', 'English', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Kinesthetic,"['Arts', 'Technology', 'Sports']",Artist
+648,Student_648,16,10,87,46,58,74,44,99,"['Sanskrit', 'English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi']",Kinesthetic,"['Technology', 'Arts']",Teacher
+649,Student_649,16,9,84,48,65,58,63,96,"['English', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Visual,"['Music', 'Sports']",Government Services
+650,Student_650,14,8,55,40,80,60,49,40,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Technology', 'Reading']",Entrepreneur
+651,Student_651,15,8,42,83,45,50,63,88,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Music'],Artist
+652,Student_652,16,10,86,49,83,69,40,83,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,['Writing'],Scientist
+653,Student_653,15,10,55,65,84,83,83,92,"['English', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Logical,"['Dance', 'Sports', 'Music']",Entrepreneur
+654,Student_654,16,8,93,40,69,79,73,53,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,['Dance'],Artist
+655,Student_655,16,8,46,87,96,62,42,72,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Visual,['Arts'],Doctor
+656,Student_656,15,10,51,76,64,88,53,90,"['Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Sanskrit']",Logical,['Sports'],Teacher
+657,Student_657,14,10,70,58,56,81,54,46,"['Sanskrit', 'English', 'Mathematics']","['Science', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Writing']",Doctor
+658,Student_658,14,8,59,51,79,88,68,98,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Sports']",Government Services
+659,Student_659,14,10,95,49,88,74,53,40,"['Science', 'Sanskrit', 'SocialStudies']","['Mathematics', 'English', 'Hindi']",Kinesthetic,['Music'],Engineer
+660,Student_660,14,9,91,86,44,94,78,73,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Music', 'Technology']",Artist
+661,Student_661,14,9,71,68,88,63,97,77,"['Sanskrit', 'English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi']",Visual,"['Arts', 'Writing', 'Sports']",Scientist
+662,Student_662,15,9,60,65,65,61,50,84,"['Sanskrit', 'English', 'Science']","['Mathematics', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Writing']",Engineer
+663,Student_663,15,10,68,95,64,70,90,95,"['English', 'Hindi', 'Mathematics']","['Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Music']",Government Services
+664,Student_664,16,9,72,49,94,47,48,96,"['Mathematics', 'English', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Logical,['Arts'],Engineer
+665,Student_665,15,9,70,53,96,43,61,47,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Kinesthetic,['Writing'],Artist
+666,Student_666,16,8,85,93,86,41,47,98,"['Hindi', 'English', 'Science']","['Mathematics', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Artist
+667,Student_667,14,9,64,98,69,50,79,47,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Visual,"['Technology', 'Reading']",Entrepreneur
+668,Student_668,15,8,56,70,59,96,78,69,"['Mathematics', 'SocialStudies', 'Sanskrit']","['Science', 'English', 'Hindi']",Visual,['Music'],Artist
+669,Student_669,15,8,74,77,63,62,69,50,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Writing']",Doctor
+670,Student_670,15,8,85,53,40,87,43,91,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Writing', 'Technology', 'Dance']",Engineer
+671,Student_671,16,9,57,60,61,69,42,73,"['Sanskrit', 'Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English']",Auditory,"['Dance', 'Arts', 'Music']",Government Services
+672,Student_672,16,8,65,71,96,62,42,89,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Logical,['Music'],Entrepreneur
+673,Student_673,14,10,86,72,97,90,93,82,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Reading']",Engineer
+674,Student_674,16,10,72,98,83,88,67,49,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Visual,"['Sports', 'Dance']",Teacher
+675,Student_675,14,8,47,68,67,57,81,54,"['Sanskrit', 'SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi']",Logical,['Reading'],Engineer
+676,Student_676,14,9,79,79,66,92,44,66,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Music']",Teacher
+677,Student_677,14,10,73,48,43,77,97,84,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Entrepreneur
+678,Student_678,16,9,48,61,95,78,41,68,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Reading', 'Writing']",Scientist
+679,Student_679,15,8,43,48,45,43,75,69,"['English', 'Science', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Music']",Artist
+680,Student_680,15,8,40,54,84,43,75,63,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Arts']",Entrepreneur
+681,Student_681,14,8,47,65,66,67,41,70,"['Mathematics', 'SocialStudies', 'Sanskrit']","['Science', 'English', 'Hindi']",Logical,['Sports'],Entrepreneur
+682,Student_682,15,9,82,88,98,94,40,81,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Music']",Teacher
+683,Student_683,15,8,71,76,42,91,64,44,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Auditory,"['Reading', 'Music']",Teacher
+684,Student_684,16,8,71,84,56,76,46,59,"['SocialStudies', 'Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Reading', 'Sports']",Engineer
+685,Student_685,15,9,52,74,97,49,95,75,"['Hindi', 'Science', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Visual,"['Writing', 'Music', 'Technology']",Teacher
+686,Student_686,16,10,51,63,76,59,71,69,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Writing']",Scientist
+687,Student_687,14,8,81,89,94,88,85,85,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Visual,['Music'],Government Services
+688,Student_688,16,9,70,43,45,96,61,80,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Music', 'Technology']",Teacher
+689,Student_689,14,8,55,68,78,69,99,83,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Auditory,"['Writing', 'Reading', 'Music']",Doctor
+690,Student_690,14,9,100,96,76,81,66,44,"['SocialStudies', 'Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit']",Kinesthetic,['Dance'],Doctor
+691,Student_691,16,8,65,44,100,93,79,90,"['SocialStudies', 'Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit']",Visual,['Sports'],Entrepreneur
+692,Student_692,14,9,91,95,58,43,76,69,"['English', 'Science', 'Sanskrit']","['Mathematics', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Technology']",Scientist
+693,Student_693,16,9,84,68,81,69,71,44,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Music', 'Dance']",Entrepreneur
+694,Student_694,14,8,62,92,55,66,70,91,"['Mathematics', 'Science', 'English']","['Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Sports', 'Arts']",Entrepreneur
+695,Student_695,15,8,97,88,49,62,99,45,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Sports']",Engineer
+696,Student_696,14,9,95,77,53,64,62,100,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Technology', 'Arts']",Artist
+697,Student_697,16,10,84,87,76,93,93,86,"['Science', 'Hindi', 'Sanskrit']","['Mathematics', 'English', 'SocialStudies']",Logical,"['Arts', 'Reading', 'Dance']",Teacher
+698,Student_698,14,8,72,58,79,74,89,55,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Dance', 'Reading']",Teacher
+699,Student_699,14,8,56,86,53,41,60,100,"['Science', 'English', 'Hindi']","['Mathematics', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Artist
+700,Student_700,15,9,83,42,99,57,91,92,"['SocialStudies', 'Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit']",Logical,"['Music', 'Reading', 'Writing']",Entrepreneur
+701,Student_701,16,8,76,50,79,97,42,85,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Reading', 'Music', 'Dance']",Entrepreneur
+702,Student_702,14,9,73,43,87,57,97,58,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Dance', 'Music']",Entrepreneur
+703,Student_703,14,8,65,43,60,72,52,48,"['SocialStudies', 'Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit']",Auditory,"['Reading', 'Sports']",Government Services
+704,Student_704,14,8,61,61,99,61,65,59,"['Mathematics', 'Science', 'Hindi']","['English', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Reading']",Engineer
+705,Student_705,16,10,79,74,56,48,85,73,"['Mathematics', 'SocialStudies', 'English']","['Science', 'Hindi', 'Sanskrit']",Logical,"['Reading', 'Writing', 'Technology']",Government Services
+706,Student_706,14,8,66,49,95,69,96,88,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Writing', 'Reading']",Entrepreneur
+707,Student_707,16,9,94,73,69,97,66,59,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Scientist
+708,Student_708,16,10,72,58,87,85,57,92,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Music', 'Arts', 'Sports']",Artist
+709,Student_709,15,9,83,68,53,92,61,96,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Technology', 'Arts']",Government Services
+710,Student_710,14,8,47,65,43,42,76,59,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Writing'],Teacher
+711,Student_711,15,9,45,84,79,82,43,96,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Sports']",Scientist
+712,Student_712,15,10,88,96,52,73,45,53,"['English', 'Sanskrit', 'Hindi']","['Mathematics', 'Science', 'SocialStudies']",Kinesthetic,"['Dance', 'Arts']",Government Services
+713,Student_713,16,10,90,49,91,72,82,74,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Technology']",Artist
+714,Student_714,16,10,99,100,79,63,98,92,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Dance'],Engineer
+715,Student_715,16,9,57,51,87,82,51,49,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Logical,"['Sports', 'Technology', 'Arts']",Scientist
+716,Student_716,14,8,97,96,75,42,85,47,"['English', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Visual,"['Dance', 'Arts']",Engineer
+717,Student_717,16,9,44,58,85,90,65,68,"['Sanskrit', 'English', 'Hindi']","['Mathematics', 'Science', 'SocialStudies']",Visual,['Writing'],Government Services
+718,Student_718,16,10,67,52,75,67,50,97,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Reading'],Doctor
+719,Student_719,14,9,67,43,74,44,60,81,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Kinesthetic,"['Dance', 'Technology', 'Music']",Entrepreneur
+720,Student_720,14,8,69,70,58,86,88,96,"['SocialStudies', 'English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit']",Logical,['Reading'],Government Services
+721,Student_721,16,10,86,74,81,75,61,56,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Logical,"['Music', 'Technology']",Artist
+722,Student_722,16,8,98,42,48,72,66,54,"['Sanskrit', 'SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi']",Kinesthetic,"['Reading', 'Arts', 'Technology']",Scientist
+723,Student_723,16,8,41,80,85,95,44,86,"['Sanskrit', 'Hindi', 'English']","['Mathematics', 'Science', 'SocialStudies']",Visual,"['Writing', 'Technology', 'Arts']",Artist
+724,Student_724,15,10,81,58,45,45,43,59,"['Sanskrit', 'Science', 'Hindi']","['Mathematics', 'English', 'SocialStudies']",Kinesthetic,['Arts'],Government Services
+725,Student_725,15,9,96,93,59,52,45,78,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Kinesthetic,"['Arts', 'Writing']",Teacher
+726,Student_726,15,8,42,96,74,52,61,91,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Sports']",Teacher
+727,Student_727,14,10,87,75,58,69,97,47,"['English', 'Sanskrit', 'Hindi']","['Mathematics', 'Science', 'SocialStudies']",Visual,"['Writing', 'Sports']",Entrepreneur
+728,Student_728,15,9,75,53,98,71,80,86,"['Mathematics', 'Science', 'Hindi']","['English', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Entrepreneur
+729,Student_729,15,9,87,52,69,73,59,64,"['Mathematics', 'SocialStudies', 'Sanskrit']","['Science', 'English', 'Hindi']",Logical,"['Technology', 'Sports', 'Music']",Artist
+730,Student_730,14,10,60,96,50,96,64,97,"['Hindi', 'Science', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Music']",Entrepreneur
+731,Student_731,15,10,49,93,65,76,75,42,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Government Services
+732,Student_732,14,9,42,47,76,67,45,79,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Dance']",Government Services
+733,Student_733,16,10,52,72,82,87,93,86,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Sports', 'Reading']",Entrepreneur
+734,Student_734,14,9,98,53,86,91,47,69,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Writing', 'Technology']",Government Services
+735,Student_735,16,9,83,87,94,61,42,88,"['Mathematics', 'Hindi']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Reading', 'Arts']",Teacher
+736,Student_736,16,9,90,82,72,67,99,82,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Government Services
+737,Student_737,15,10,87,71,86,97,57,100,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Scientist
+738,Student_738,14,10,42,57,55,55,49,100,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Dance']",Doctor
+739,Student_739,15,10,76,74,52,56,56,66,"['Science', 'Mathematics', 'English']","['Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Technology']",Teacher
+740,Student_740,14,10,88,66,75,98,60,75,"['SocialStudies', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English']",Auditory,"['Arts', 'Reading', 'Music']",Doctor
+741,Student_741,15,8,44,41,96,86,69,50,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Writing']",Doctor
+742,Student_742,16,9,87,50,53,49,45,54,"['SocialStudies', 'Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi']",Kinesthetic,"['Dance', 'Sports', 'Music']",Entrepreneur
+743,Student_743,16,8,96,82,80,88,42,95,"['Science', 'Sanskrit', 'Hindi']","['Mathematics', 'English', 'SocialStudies']",Auditory,"['Arts', 'Technology', 'Sports']",Artist
+744,Student_744,15,10,78,43,88,42,97,72,"['English', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Visual,"['Arts', 'Dance', 'Reading']",Scientist
+745,Student_745,16,10,56,89,79,56,98,100,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Technology'],Artist
+746,Student_746,14,8,43,60,59,73,60,53,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Writing']",Entrepreneur
+747,Student_747,15,10,91,55,55,70,70,81,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Logical,"['Dance', 'Reading']",Entrepreneur
+748,Student_748,16,10,76,41,74,62,52,98,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Reading', 'Writing']",Entrepreneur
+749,Student_749,15,8,51,58,73,44,95,71,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Music']",Scientist
+750,Student_750,15,8,48,45,58,40,66,85,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Writing']",Teacher
+751,Student_751,16,9,73,40,48,69,96,57,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Visual,['Technology'],Engineer
+752,Student_752,16,9,82,42,56,76,94,86,"['Hindi', 'Science', 'English']","['Mathematics', 'Sanskrit', 'SocialStudies']",Auditory,['Technology'],Teacher
+753,Student_753,16,10,45,79,87,97,75,83,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Sports', 'Music']",Engineer
+754,Student_754,15,8,62,89,88,46,67,77,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Dance'],Teacher
+755,Student_755,16,8,69,60,52,85,83,59,"['Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Sanskrit']",Logical,['Writing'],Entrepreneur
+756,Student_756,16,10,77,56,81,79,40,65,"['Hindi', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Visual,"['Technology', 'Sports']",Teacher
+757,Student_757,15,10,87,88,89,86,88,95,"['Sanskrit', 'Hindi', 'Mathematics']","['Science', 'English', 'SocialStudies']",Logical,"['Reading', 'Technology']",Doctor
+758,Student_758,15,8,71,48,61,70,99,73,"['English', 'Mathematics', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Auditory,"['Sports', 'Reading']",Scientist
+759,Student_759,15,9,75,62,89,98,67,96,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Sports']",Artist
+760,Student_760,16,8,87,85,55,99,95,74,"['English', 'SocialStudies', 'Science']","['Mathematics', 'Hindi', 'Sanskrit']",Logical,"['Technology', 'Sports']",Engineer
+761,Student_761,14,8,59,90,78,89,74,71,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Auditory,['Technology'],Scientist
+762,Student_762,14,8,42,58,86,86,76,54,"['Sanskrit', 'SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi']",Logical,"['Writing', 'Music']",Engineer
+763,Student_763,14,9,89,93,55,47,40,96,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Technology']",Engineer
+764,Student_764,15,10,51,87,78,70,95,63,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Visual,"['Dance', 'Reading', 'Sports']",Entrepreneur
+765,Student_765,14,9,85,66,73,47,85,44,"['English', 'Sanskrit', 'Science']","['Mathematics', 'Hindi', 'SocialStudies']",Kinesthetic,"['Technology', 'Music', 'Reading']",Artist
+766,Student_766,14,8,87,58,61,49,90,64,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Writing'],Artist
+767,Student_767,15,8,94,93,85,99,60,71,"['Science', 'SocialStudies', 'Mathematics']","['English', 'Hindi', 'Sanskrit']",Logical,"['Reading', 'Writing', 'Sports']",Scientist
+768,Student_768,16,9,63,56,64,50,57,40,"['Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Arts', 'Writing']",Teacher
+769,Student_769,16,10,77,46,97,77,53,92,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Writing', 'Reading']",Engineer
+770,Student_770,16,8,56,87,84,83,49,42,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Sports'],Artist
+771,Student_771,16,8,81,59,100,60,76,62,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Reading', 'Writing']",Doctor
+772,Student_772,16,8,95,90,50,65,43,90,"['SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,['Technology'],Government Services
+773,Student_773,15,10,54,91,85,89,75,79,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Teacher
+774,Student_774,16,10,83,59,77,95,69,95,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,['Technology'],Artist
+775,Student_775,16,10,59,47,69,65,85,98,"['Mathematics', 'English', 'Science']","['Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Music'],Engineer
+776,Student_776,15,8,43,65,61,71,52,47,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Sports']",Entrepreneur
+777,Student_777,16,9,80,43,63,47,84,70,"['SocialStudies', 'English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Auditory,['Music'],Government Services
+778,Student_778,16,8,72,86,69,42,44,40,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Music', 'Sports']",Teacher
+779,Student_779,14,9,49,84,77,82,64,92,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Visual,"['Technology', 'Music', 'Reading']",Doctor
+780,Student_780,15,8,45,69,59,65,53,41,"['Sanskrit', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi']",Logical,"['Writing', 'Sports']",Entrepreneur
+781,Student_781,16,8,44,82,61,43,59,45,"['Mathematics', 'English', 'Hindi']","['Science', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Sports', 'Reading']",Entrepreneur
+782,Student_782,15,9,41,73,91,59,72,85,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Reading', 'Dance', 'Sports']",Entrepreneur
+783,Student_783,14,8,61,54,78,82,96,53,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Reading'],Engineer
+784,Student_784,16,8,44,41,57,100,85,75,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts']",Scientist
+785,Student_785,15,9,73,90,77,73,97,94,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,['Technology'],Engineer
+786,Student_786,14,10,46,66,40,43,91,46,"['Science', 'Mathematics', 'Hindi']","['English', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Scientist
+787,Student_787,16,10,85,71,44,70,52,52,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Sports'],Government Services
+788,Student_788,16,10,61,95,53,81,53,82,"['SocialStudies', 'Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit']",Logical,['Arts'],Government Services
+789,Student_789,16,9,91,67,74,42,76,74,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Logical,['Sports'],Scientist
+790,Student_790,15,10,58,76,56,69,54,71,"['SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English', 'Hindi']",Logical,"['Reading', 'Technology']",Doctor
+791,Student_791,16,9,41,69,87,60,95,51,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Arts', 'Reading']",Teacher
+792,Student_792,15,10,95,100,63,56,59,71,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts', 'Writing']",Engineer
+793,Student_793,16,9,96,94,47,98,41,63,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Dance'],Artist
+794,Student_794,15,8,43,88,98,51,59,75,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Dance']",Engineer
+795,Student_795,14,9,70,95,65,73,78,80,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Music', 'Technology']",Doctor
+796,Student_796,14,8,67,61,79,66,58,87,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,['Writing'],Scientist
+797,Student_797,15,9,83,55,47,69,58,56,"['English', 'SocialStudies', 'Science']","['Mathematics', 'Hindi', 'Sanskrit']",Auditory,['Writing'],Teacher
+798,Student_798,16,8,73,41,47,96,92,47,"['SocialStudies', 'English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit']",Auditory,['Dance'],Teacher
+799,Student_799,16,8,53,53,85,79,73,97,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Technology', 'Music']",Teacher
+800,Student_800,15,9,59,58,74,83,56,62,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts']",Teacher
+801,Student_801,15,8,54,98,66,53,75,93,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Logical,['Arts'],Artist
+802,Student_802,16,10,85,51,74,91,65,81,"['Hindi', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Sanskrit']",Logical,"['Dance', 'Reading']",Government Services
+803,Student_803,14,10,51,82,75,97,53,76,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Auditory,"['Dance', 'Technology']",Teacher
+804,Student_804,14,10,100,99,48,77,55,70,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Technology', 'Dance']",Scientist
+805,Student_805,16,9,66,62,54,97,45,46,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,['Writing'],Government Services
+806,Student_806,15,8,91,50,82,70,46,74,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Technology', 'Writing']",Artist
+807,Student_807,14,10,68,73,41,85,71,71,"['SocialStudies', 'Mathematics', 'Hindi']","['Science', 'English', 'Sanskrit']",Auditory,"['Writing', 'Music']",Entrepreneur
+808,Student_808,16,10,52,75,44,98,44,62,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Dance'],Engineer
+809,Student_809,15,8,70,93,83,95,99,67,"['Sanskrit', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Hindi']",Kinesthetic,"['Writing', 'Technology']",Scientist
+810,Student_810,14,10,90,63,71,61,40,91,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Sports', 'Dance']",Doctor
+811,Student_811,16,8,44,52,76,72,97,83,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Visual,"['Music', 'Technology']",Doctor
+812,Student_812,15,8,94,41,59,46,68,72,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Reading']",Scientist
+813,Student_813,16,9,97,61,70,80,72,64,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Dance', 'Reading', 'Arts']",Doctor
+814,Student_814,14,8,49,66,51,94,58,85,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Arts', 'Sports']",Engineer
+815,Student_815,16,10,91,80,76,48,74,78,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Logical,"['Arts', 'Technology']",Entrepreneur
+816,Student_816,16,9,57,95,82,78,72,60,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Dance', 'Arts', 'Reading']",Government Services
+817,Student_817,14,8,64,97,70,69,48,46,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Arts', 'Reading']",Government Services
+818,Student_818,16,9,78,42,90,89,46,72,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Engineer
+819,Student_819,14,8,79,61,57,41,77,85,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Technology'],Entrepreneur
+820,Student_820,14,9,44,78,68,58,46,53,"['SocialStudies', 'Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi']",Kinesthetic,"['Technology', 'Writing', 'Dance']",Teacher
+821,Student_821,14,9,49,57,66,67,86,97,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Writing']",Teacher
+822,Student_822,15,9,61,91,44,42,91,41,"['Sanskrit', 'Hindi', 'SocialStudies']","['Mathematics', 'Science', 'English']",Logical,"['Arts', 'Reading']",Entrepreneur
+823,Student_823,15,8,80,50,62,81,57,62,"['Mathematics', 'Hindi', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Visual,['Arts'],Doctor
+824,Student_824,16,10,44,92,100,41,59,92,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Sports']",Scientist
+825,Student_825,15,9,42,66,59,91,76,65,"['Science', 'English', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Artist
+826,Student_826,15,10,75,90,76,40,99,76,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,['Technology'],Entrepreneur
+827,Student_827,16,8,74,89,98,66,93,74,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Arts', 'Dance']",Teacher
+828,Student_828,14,9,43,46,51,98,94,79,"['Hindi', 'Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English']",Logical,['Sports'],Artist
+829,Student_829,15,9,77,81,78,90,94,45,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Auditory,['Reading'],Engineer
+830,Student_830,15,8,70,80,61,98,92,59,"['Mathematics', 'English', 'Science']","['Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Arts'],Engineer
+831,Student_831,15,9,91,100,82,90,52,71,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Dance']",Teacher
+832,Student_832,14,8,71,40,55,57,100,93,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Technology', 'Sports']",Artist
+833,Student_833,15,9,64,62,97,97,76,80,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Engineer
+834,Student_834,16,10,49,48,92,87,43,74,"['Science', 'English', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Sports']",Government Services
+835,Student_835,16,9,53,63,85,91,98,66,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Dance', 'Sports', 'Arts']",Scientist
+836,Student_836,16,9,56,93,65,79,40,74,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Reading', 'Dance']",Doctor
+837,Student_837,14,10,72,53,42,40,68,72,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Sports', 'Writing']",Government Services
+838,Student_838,15,8,73,49,90,50,78,78,"['Hindi', 'Sanskrit', 'Science']","['Mathematics', 'English', 'SocialStudies']",Logical,['Sports'],Engineer
+839,Student_839,16,8,75,74,56,92,70,65,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Logical,"['Sports', 'Dance', 'Technology']",Teacher
+840,Student_840,15,10,61,54,45,97,99,86,"['Mathematics', 'SocialStudies', 'Science']","['English', 'Hindi', 'Sanskrit']",Logical,"['Sports', 'Dance']",Scientist
+841,Student_841,16,9,99,98,60,78,97,63,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Logical,"['Technology', 'Sports']",Entrepreneur
+842,Student_842,15,8,42,61,72,89,53,45,"['English', 'Science', 'SocialStudies']","['Mathematics', 'Hindi', 'Sanskrit']",Logical,"['Sports', 'Music', 'Dance']",Scientist
+843,Student_843,15,9,65,46,69,74,66,62,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Dance']",Artist
+844,Student_844,15,9,51,66,84,50,77,82,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Arts', 'Music']",Teacher
+845,Student_845,15,9,85,78,90,87,80,95,"['SocialStudies', 'Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi']",Logical,"['Technology', 'Arts', 'Dance']",Scientist
+846,Student_846,14,10,53,63,63,45,76,87,"['Mathematics', 'Sanskrit', 'Hindi']","['Science', 'English', 'SocialStudies']",Kinesthetic,"['Technology', 'Writing']",Artist
+847,Student_847,16,8,79,74,69,56,100,93,"['Science', 'SocialStudies', 'Hindi']","['Mathematics', 'English', 'Sanskrit']",Visual,"['Technology', 'Dance', 'Sports']",Government Services
+848,Student_848,16,9,100,42,88,64,55,57,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Sports', 'Dance']",Doctor
+849,Student_849,16,9,85,76,52,87,55,75,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Dance', 'Reading', 'Technology']",Entrepreneur
+850,Student_850,15,9,75,40,96,50,44,86,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Arts', 'Reading']",Scientist
+851,Student_851,16,10,55,80,72,41,88,96,"['SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Arts'],Artist
+852,Student_852,15,8,54,42,81,43,97,78,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Visual,['Writing'],Doctor
+853,Student_853,14,10,91,97,91,53,48,83,"['Mathematics', 'SocialStudies', 'English']","['Science', 'Hindi', 'Sanskrit']",Auditory,['Technology'],Artist
+854,Student_854,15,9,62,98,50,53,48,72,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Reading', 'Dance']",Teacher
+855,Student_855,16,10,94,73,71,62,86,69,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Music', 'Writing']",Engineer
+856,Student_856,16,10,56,84,54,67,98,84,"['Mathematics', 'Science', 'Hindi']","['English', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Technology']",Scientist
+857,Student_857,16,8,41,55,50,58,40,55,"['Mathematics', 'Hindi', 'Sanskrit']","['Science', 'English', 'SocialStudies']",Kinesthetic,"['Music', 'Sports']",Entrepreneur
+858,Student_858,15,9,59,63,88,94,54,95,"['SocialStudies', 'English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Visual,"['Reading', 'Dance']",Entrepreneur
+859,Student_859,14,10,68,97,89,82,49,95,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Music']",Entrepreneur
+860,Student_860,15,8,62,95,69,97,97,42,"['Sanskrit', 'SocialStudies', 'English']","['Mathematics', 'Science', 'Hindi']",Auditory,['Writing'],Government Services
+861,Student_861,15,9,75,64,75,48,73,54,"['Science', 'Mathematics', 'Hindi']","['English', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Sports', 'Music']",Teacher
+862,Student_862,16,10,84,45,58,78,90,47,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Kinesthetic,['Dance'],Engineer
+863,Student_863,14,10,46,58,52,85,87,86,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Entrepreneur
+864,Student_864,15,10,52,99,74,97,62,88,"['English', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Logical,"['Sports', 'Technology']",Entrepreneur
+865,Student_865,15,8,76,80,72,74,42,71,"['Mathematics', 'English', 'Science']","['Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Dance']",Government Services
+866,Student_866,14,8,91,54,46,86,61,43,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Dance', 'Arts']",Teacher
+867,Student_867,14,10,51,56,49,80,91,56,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Arts', 'Writing']",Entrepreneur
+868,Student_868,15,9,67,43,89,83,54,42,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Kinesthetic,['Arts'],Doctor
+869,Student_869,14,8,49,63,67,79,94,91,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Dance', 'Music', 'Writing']",Engineer
+870,Student_870,14,9,59,83,55,49,98,45,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Reading', 'Music']",Engineer
+871,Student_871,14,9,80,59,58,95,56,54,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Auditory,"['Dance', 'Writing', 'Arts']",Engineer
+872,Student_872,14,8,53,49,80,55,54,54,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Writing', 'Reading', 'Arts']",Artist
+873,Student_873,15,10,60,86,53,85,97,71,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Auditory,['Reading'],Engineer
+874,Student_874,14,8,53,49,63,49,55,95,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Music', 'Sports']",Government Services
+875,Student_875,14,10,98,65,60,98,66,83,"['SocialStudies', 'Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi']",Visual,"['Music', 'Technology']",Doctor
+876,Student_876,15,10,50,42,88,67,94,81,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Writing', 'Arts']",Government Services
+877,Student_877,14,9,74,48,40,69,87,49,"['Hindi', 'Sanskrit', 'Mathematics']","['Science', 'English', 'SocialStudies']",Logical,"['Dance', 'Music']",Teacher
+878,Student_878,15,9,51,64,92,48,64,54,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Auditory,['Technology'],Scientist
+879,Student_879,16,9,90,74,82,49,76,87,"['Mathematics', 'Hindi', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Reading'],Artist
+880,Student_880,16,8,70,79,73,86,71,84,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Reading', 'Technology']",Government Services
+881,Student_881,16,10,62,60,41,41,99,57,"['English', 'Science', 'Hindi']","['Mathematics', 'Sanskrit', 'SocialStudies']",Logical,['Sports'],Teacher
+882,Student_882,14,8,86,98,64,80,80,82,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Music', 'Reading']",Teacher
+883,Student_883,14,8,96,52,46,40,97,88,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Logical,"['Sports', 'Arts', 'Music']",Scientist
+884,Student_884,14,8,79,62,40,66,95,43,"['Mathematics', 'Hindi', 'Sanskrit']","['Science', 'English', 'SocialStudies']",Kinesthetic,"['Dance', 'Writing']",Doctor
+885,Student_885,15,9,85,50,58,52,59,44,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Visual,['Arts'],Government Services
+886,Student_886,15,8,85,84,86,43,74,50,"['SocialStudies', 'Science', 'Hindi']","['Mathematics', 'English', 'Sanskrit']",Auditory,"['Arts', 'Dance', 'Music']",Artist
+887,Student_887,15,9,85,52,44,58,82,45,"['Hindi', 'Science', 'English']","['Mathematics', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Sports', 'Music']",Teacher
+888,Student_888,14,8,83,64,82,76,92,48,"['English', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'Hindi']",Logical,"['Dance', 'Music']",Scientist
+889,Student_889,15,9,87,56,88,91,88,64,"['Sanskrit', 'Hindi']","['Mathematics', 'Science', 'English', 'SocialStudies']",Logical,"['Sports', 'Writing', 'Arts']",Teacher
+890,Student_890,15,9,66,68,45,47,50,49,"['SocialStudies', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English']",Logical,"['Dance', 'Reading', 'Technology']",Teacher
+891,Student_891,14,8,82,87,42,78,76,50,"['Mathematics', 'Hindi']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Music', 'Arts']",Artist
+892,Student_892,16,8,45,56,46,45,93,50,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Writing', 'Dance']",Government Services
+893,Student_893,16,9,71,59,66,77,88,88,"['Hindi', 'Sanskrit', 'Mathematics']","['Science', 'English', 'SocialStudies']",Auditory,"['Music', 'Technology', 'Arts']",Doctor
+894,Student_894,15,8,60,89,67,91,55,40,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Dance', 'Writing']",Entrepreneur
+895,Student_895,14,8,45,71,59,91,93,50,"['SocialStudies', 'Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit']",Kinesthetic,"['Dance', 'Writing']",Teacher
+896,Student_896,15,10,99,94,80,46,53,100,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Auditory,"['Music', 'Sports']",Teacher
+897,Student_897,14,10,82,52,42,89,44,84,"['English', 'Sanskrit']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Kinesthetic,['Dance'],Artist
+898,Student_898,16,8,58,71,59,46,74,57,"['Science', 'Sanskrit', 'Mathematics']","['English', 'Hindi', 'SocialStudies']",Kinesthetic,"['Arts', 'Music']",Government Services
+899,Student_899,15,10,85,61,96,81,99,75,"['SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi', 'Sanskrit']",Logical,['Technology'],Scientist
+900,Student_900,16,10,68,67,48,50,66,99,"['English', 'Mathematics', 'Sanskrit']","['Science', 'Hindi', 'SocialStudies']",Logical,['Reading'],Scientist
+901,Student_901,14,10,45,49,99,71,58,72,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Arts'],Engineer
+902,Student_902,14,9,96,43,92,93,92,43,"['English', 'Mathematics', 'SocialStudies']","['Science', 'Hindi', 'Sanskrit']",Auditory,"['Technology', 'Dance']",Government Services
+903,Student_903,16,9,61,46,77,53,100,82,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Arts', 'Writing']",Scientist
+904,Student_904,16,9,55,84,96,88,47,75,"['Science', 'Mathematics', 'English']","['Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Doctor
+905,Student_905,14,10,44,65,52,70,56,57,"['English', 'SocialStudies', 'Hindi']","['Mathematics', 'Science', 'Sanskrit']",Auditory,['Music'],Engineer
+906,Student_906,15,9,49,97,75,48,45,67,"['Mathematics', 'Science']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Arts', 'Sports', 'Dance']",Scientist
+907,Student_907,16,10,80,79,54,84,46,62,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Music']",Government Services
+908,Student_908,15,8,59,44,51,76,62,92,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Visual,"['Arts', 'Reading']",Entrepreneur
+909,Student_909,15,10,54,75,93,60,48,40,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,['Sports'],Doctor
+910,Student_910,15,10,98,49,51,79,91,67,"['Hindi', 'Science', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Arts']",Entrepreneur
+911,Student_911,16,8,95,45,76,49,63,79,"['Hindi', 'Mathematics', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Sports']",Government Services
+912,Student_912,14,10,63,80,89,79,97,40,"['English', 'Science', 'Mathematics']","['Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Writing'],Teacher
+913,Student_913,16,10,74,53,65,62,78,47,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Arts', 'Music']",Engineer
+914,Student_914,16,10,71,58,56,67,58,63,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Technology', 'Dance']",Teacher
+915,Student_915,16,8,92,88,88,81,51,83,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Writing', 'Reading', 'Arts']",Artist
+916,Student_916,16,10,49,68,81,89,84,58,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Sports', 'Technology']",Scientist
+917,Student_917,15,8,60,88,90,54,82,43,"['SocialStudies', 'English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit']",Auditory,"['Reading', 'Dance']",Teacher
+918,Student_918,15,9,59,87,57,100,88,41,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Writing', 'Reading', 'Dance']",Entrepreneur
+919,Student_919,16,9,86,71,100,71,100,42,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Technology'],Government Services
+920,Student_920,14,8,46,48,77,100,91,95,"['Hindi', 'English', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Visual,"['Music', 'Dance']",Engineer
+921,Student_921,16,10,67,85,57,41,83,58,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Dance']",Entrepreneur
+922,Student_922,15,8,99,73,50,47,60,89,"['Science', 'Sanskrit', 'Hindi']","['Mathematics', 'English', 'SocialStudies']",Kinesthetic,"['Arts', 'Sports']",Artist
+923,Student_923,14,8,69,46,55,87,92,81,"['SocialStudies', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English']",Kinesthetic,['Music'],Artist
+924,Student_924,16,8,43,68,41,44,41,97,"['SocialStudies', 'Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit']",Visual,"['Writing', 'Technology', 'Music']",Entrepreneur
+925,Student_925,14,8,74,72,100,42,86,78,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Technology', 'Arts']",Artist
+926,Student_926,14,9,58,80,95,84,59,59,"['Mathematics', 'Hindi', 'Science']","['English', 'Sanskrit', 'SocialStudies']",Auditory,"['Sports', 'Reading', 'Arts']",Entrepreneur
+927,Student_927,15,8,64,49,64,40,42,80,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Music']",Artist
+928,Student_928,15,10,54,56,57,48,100,54,"['SocialStudies', 'Hindi']","['Mathematics', 'Science', 'English', 'Sanskrit']",Auditory,"['Music', 'Arts']",Doctor
+929,Student_929,16,10,64,51,66,64,88,86,"['Mathematics', 'Hindi', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Auditory,"['Sports', 'Reading']",Artist
+930,Student_930,14,8,77,40,54,72,76,46,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Music', 'Reading']",Entrepreneur
+931,Student_931,15,10,88,43,72,50,42,54,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Visual,"['Dance', 'Sports']",Engineer
+932,Student_932,16,8,65,76,62,90,58,66,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Visual,['Arts'],Artist
+933,Student_933,14,10,79,40,83,92,44,95,"['Hindi', 'Mathematics', 'SocialStudies']","['Science', 'English', 'Sanskrit']",Logical,['Technology'],Teacher
+934,Student_934,15,8,87,57,74,92,55,45,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,['Technology'],Government Services
+935,Student_935,14,8,94,79,58,56,47,98,"['Mathematics', 'English']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Dance']",Teacher
+936,Student_936,16,10,52,54,89,64,85,68,"['Science', 'English', 'Sanskrit']","['Mathematics', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Music', 'Sports']",Teacher
+937,Student_937,14,8,79,77,41,73,81,84,"['English', 'Science', 'Hindi']","['Mathematics', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Doctor
+938,Student_938,16,8,52,89,80,96,63,73,"['Hindi', 'Science', 'SocialStudies']","['Mathematics', 'English', 'Sanskrit']",Logical,"['Reading', 'Music']",Artist
+939,Student_939,15,8,48,66,62,96,98,97,"['Sanskrit', 'Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi']",Logical,"['Dance', 'Reading']",Scientist
+940,Student_940,15,8,47,43,54,53,97,68,"['SocialStudies', 'Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Arts', 'Music']",Scientist
+941,Student_941,14,9,68,95,42,88,54,92,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Entrepreneur
+942,Student_942,14,9,49,89,49,88,47,58,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Kinesthetic,"['Music', 'Dance', 'Writing']",Entrepreneur
+943,Student_943,15,8,91,87,65,59,75,100,"['English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Artist
+944,Student_944,16,10,43,73,96,100,71,60,"['Sanskrit', 'SocialStudies']","['Mathematics', 'Science', 'English', 'Hindi']",Logical,"['Sports', 'Dance', 'Reading']",Artist
+945,Student_945,14,10,94,61,86,59,71,62,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,['Dance'],Doctor
+946,Student_946,14,8,65,80,96,78,79,49,"['Sanskrit', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Hindi']",Auditory,"['Dance', 'Arts']",Artist
+947,Student_947,15,8,60,59,68,51,73,77,"['English', 'Hindi']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Visual,"['Music', 'Technology']",Government Services
+948,Student_948,16,8,57,74,91,73,62,57,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Sports', 'Writing']",Artist
+949,Student_949,16,9,66,58,49,91,63,91,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Kinesthetic,['Sports'],Scientist
+950,Student_950,15,10,44,49,70,91,96,82,"['English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi', 'Sanskrit']",Auditory,['Reading'],Scientist
+951,Student_951,15,8,46,61,59,41,85,66,"['English', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'SocialStudies']",Kinesthetic,"['Music', 'Technology']",Artist
+952,Student_952,16,9,73,80,46,89,69,88,"['SocialStudies', 'Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English']",Kinesthetic,"['Dance', 'Sports', 'Technology']",Doctor
+953,Student_953,15,10,95,88,79,55,45,56,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Visual,"['Arts', 'Technology', 'Writing']",Doctor
+954,Student_954,14,10,56,49,80,90,45,42,"['Sanskrit', 'Science', 'Hindi']","['Mathematics', 'English', 'SocialStudies']",Auditory,['Dance'],Artist
+955,Student_955,14,9,58,79,85,85,57,74,"['English', 'SocialStudies', 'Mathematics']","['Science', 'Hindi', 'Sanskrit']",Auditory,"['Writing', 'Reading']",Artist
+956,Student_956,15,10,55,92,75,90,80,63,"['Hindi', 'Science', 'Mathematics']","['English', 'Sanskrit', 'SocialStudies']",Visual,['Technology'],Doctor
+957,Student_957,15,9,43,64,84,57,92,83,"['Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Dance'],Engineer
+958,Student_958,16,8,47,99,91,45,66,65,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Logical,"['Music', 'Writing']",Government Services
+959,Student_959,14,10,90,44,94,58,52,76,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Arts', 'Dance', 'Sports']",Doctor
+960,Student_960,16,10,83,92,55,51,49,78,"['Hindi', 'English', 'Mathematics']","['Science', 'Sanskrit', 'SocialStudies']",Logical,"['Sports', 'Dance', 'Reading']",Scientist
+961,Student_961,16,9,49,77,95,56,63,40,"['Hindi', 'Sanskrit']","['Mathematics', 'Science', 'English', 'SocialStudies']",Kinesthetic,"['Sports', 'Writing', 'Technology']",Artist
+962,Student_962,15,10,73,77,74,62,97,43,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Music', 'Sports', 'Arts']",Artist
+963,Student_963,14,9,85,99,83,66,94,80,"['Mathematics', 'Science', 'Sanskrit']","['English', 'Hindi', 'SocialStudies']",Logical,"['Writing', 'Reading']",Teacher
+964,Student_964,15,10,59,44,66,84,75,94,"['Hindi', 'English']","['Mathematics', 'Science', 'Sanskrit', 'SocialStudies']",Visual,['Writing'],Artist
+965,Student_965,16,9,80,78,86,93,51,81,"['Hindi', 'Sanskrit', 'Science']","['Mathematics', 'English', 'SocialStudies']",Auditory,"['Technology', 'Writing', 'Reading']",Scientist
+966,Student_966,14,10,43,92,45,99,52,63,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Artist
+967,Student_967,16,9,72,86,90,41,90,83,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Visual,"['Dance', 'Sports']",Engineer
+968,Student_968,16,8,96,42,40,65,68,72,"['Hindi', 'Science']","['Mathematics', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Writing', 'Arts', 'Sports']",Doctor
+969,Student_969,16,8,55,69,60,71,60,41,"['Sanskrit', 'English']","['Mathematics', 'Science', 'Hindi', 'SocialStudies']",Auditory,"['Sports', 'Dance']",Scientist
+970,Student_970,16,10,56,94,87,72,73,62,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Dance'],Scientist
+971,Student_971,16,10,66,71,91,40,91,73,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Engineer
+972,Student_972,14,8,48,80,80,78,47,96,"['Science', 'SocialStudies']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Logical,['Writing'],Artist
+973,Student_973,15,10,79,63,59,62,73,58,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Scientist
+974,Student_974,15,8,96,44,54,75,48,68,"['Sanskrit', 'Mathematics']","['Science', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Arts', 'Dance']",Entrepreneur
+975,Student_975,14,9,71,64,93,68,86,80,"['Mathematics', 'Science', 'SocialStudies']","['English', 'Hindi', 'Sanskrit']",Logical,"['Writing', 'Sports']",Entrepreneur
+976,Student_976,16,9,94,40,89,92,53,61,"['Hindi', 'SocialStudies', 'Sanskrit']","['Mathematics', 'Science', 'English']",Auditory,"['Technology', 'Music']",Artist
+977,Student_977,16,10,50,65,72,65,62,42,['Science'],"['Mathematics', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Sports', 'Music', 'Arts']",Engineer
+978,Student_978,14,10,52,45,100,68,66,40,"['Mathematics', 'Sanskrit', 'English']","['Science', 'Hindi', 'SocialStudies']",Visual,['Sports'],Entrepreneur
+979,Student_979,14,8,65,44,91,74,80,68,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Auditory,['Dance'],Engineer
+980,Student_980,15,8,45,47,93,52,72,59,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,"['Arts', 'Reading', 'Sports']",Doctor
+981,Student_981,16,8,50,96,45,82,51,58,"['Science', 'Mathematics']","['English', 'Hindi', 'Sanskrit', 'SocialStudies']",Visual,"['Dance', 'Writing']",Entrepreneur
+982,Student_982,16,8,64,85,54,91,45,84,"['Hindi', 'Mathematics', 'English']","['Science', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Arts', 'Technology']",Engineer
+983,Student_983,14,9,53,61,85,75,77,58,"['Science', 'English', 'Sanskrit']","['Mathematics', 'Hindi', 'SocialStudies']",Logical,"['Reading', 'Dance']",Engineer
+984,Student_984,15,10,85,79,87,82,44,84,"['English', 'Mathematics']","['Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Logical,"['Writing', 'Dance']",Entrepreneur
+985,Student_985,15,8,99,70,97,53,87,91,"['Sanskrit', 'English', 'SocialStudies']","['Mathematics', 'Science', 'Hindi']",Visual,['Reading'],Scientist
+986,Student_986,14,9,46,86,41,78,40,100,"['Science', 'Sanskrit']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Technology', 'Music']",Artist
+987,Student_987,15,10,70,41,70,77,52,100,['SocialStudies'],"['Mathematics', 'Science', 'English', 'Hindi', 'Sanskrit']",Logical,"['Arts', 'Writing']",Engineer
+988,Student_988,14,8,42,57,84,91,92,86,"['SocialStudies', 'English', 'Science']","['Mathematics', 'Hindi', 'Sanskrit']",Kinesthetic,['Sports'],Entrepreneur
+989,Student_989,16,10,96,46,90,99,51,74,['Hindi'],"['Mathematics', 'Science', 'English', 'Sanskrit', 'SocialStudies']",Visual,"['Reading', 'Dance', 'Technology']",Government Services
+990,Student_990,15,10,60,48,99,83,52,85,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Visual,"['Dance', 'Writing', 'Technology']",Entrepreneur
+991,Student_991,16,8,97,94,73,87,52,65,"['Mathematics', 'Sanskrit']","['Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Music', 'Writing', 'Sports']",Entrepreneur
+992,Student_992,16,8,42,82,99,99,72,77,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Logical,['Dance'],Doctor
+993,Student_993,15,10,56,97,62,74,99,66,"['Hindi', 'Mathematics']","['Science', 'English', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Doctor
+994,Student_994,15,9,48,76,65,53,73,73,"['Hindi', 'SocialStudies', 'Science']","['Mathematics', 'English', 'Sanskrit']",Visual,"['Sports', 'Arts', 'Dance']",Engineer
+995,Student_995,16,9,53,64,64,53,46,76,"['Hindi', 'SocialStudies', 'Mathematics']","['Science', 'English', 'Sanskrit']",Auditory,"['Music', 'Arts']",Government Services
+996,Student_996,14,8,68,60,82,100,76,48,['Mathematics'],"['Science', 'English', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,['Music'],Government Services
+997,Student_997,14,8,45,96,67,64,61,93,['Sanskrit'],"['Mathematics', 'Science', 'English', 'Hindi', 'SocialStudies']",Logical,"['Technology', 'Dance']",Artist
+998,Student_998,14,9,58,74,81,55,89,63,"['SocialStudies', 'Science']","['Mathematics', 'English', 'Hindi', 'Sanskrit']",Logical,"['Reading', 'Arts', 'Technology']",Scientist
+999,Student_999,15,10,49,58,88,83,93,81,"['Science', 'English', 'Sanskrit']","['Mathematics', 'Hindi', 'SocialStudies']",Logical,['Technology'],Doctor
+1000,Student_1000,15,9,68,42,62,52,71,91,"['Mathematics', 'Hindi', 'Science']","['English', 'Sanskrit', 'SocialStudies']",Visual,['Arts'],Teacher

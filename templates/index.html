@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Career Prediction and Subject Recommendation</h1>
+        <form action="/predict" method="POST">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="grade">Grade:</label>
+            <select id="grade" name="grade" required>
+                <option value="8th">8th</option>
+                <option value="9th">9th</option>
+                <option value="10th">10th</option>
+            </select>
+
+            <label for="learningStyle">Learning Style:</label>
+            <select id="learningStyle" name="learningStyle" required>
+                <option value="Visual">Visual</option>
+                <option value="Auditory">Auditory</option>
+                <option value="Kinesthetic">Kinesthetic</option>
+            </select>
+
+            <label for="mathematics">Mathematics Score:</label>
+            <input type="number" id="mathematics" name="mathematics" required>
+
+            <label for="science">Science Score:</label>
+            <input type="number" id="science" name="science" required>
+
+            <label for="english">English Score:</label>
+            <input type="number" id="english" name="english" required>
+
+            <label for="socialScience">Social Science Score:</label>
+            <input type="number" id="socialScience" name="socialScience" required>
+
+            <label for="hindi">Hindi Score:</label>
+            <input type="number" id="hindi" name="hindi" required>
+
+            <label for="hobbies">Hobbies:</label>
+            <div>
+                {% for hobby in hobbies %}
+                <input type="checkbox" id="{{ hobby }}" name="hobbies" value="{{ hobby }}">
+                <label for="{{ hobby }}">{{ hobby }}</label><br>
+                {% endfor %}
+            </div>
+
+            <button type="submit">Predict Career</button>
+        </form>
+    </div>
+</body>
+</html>
