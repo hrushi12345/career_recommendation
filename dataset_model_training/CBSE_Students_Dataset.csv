@@ -1,4 +1,4 @@
-StudentID,Name,Age,Grade,Mathematics,Science,English,Hindi,Sanskrit,SocialStudies,PreferredSubjects,WeakSubjects,LearningStyle,Hobbies,CareerInterest
+StudentID,Name,Age,Grade,Mathematics,Science,English,Hindi,Sanskrit,Social Science,PreferredSubjects,WeakSubjects,LearningStyle,Hobbies,CareerInterest
 1,Student_1,16,9,66,48,63,80,49,75,['English'],"['Mathematics', 'Science', 'Hindi', 'Sanskrit', 'SocialStudies']",Kinesthetic,['Writing'],Doctor
 2,Student_2,16,8,51,69,85,94,65,62,"['Science', 'English']","['Mathematics', 'Hindi', 'Sanskrit', 'SocialStudies']",Auditory,"['Technology', 'Dance', 'Writing']",Teacher
 3,Student_3,15,8,59,63,60,63,44,51,"['Sanskrit', 'Science']","['Mathematics', 'English', 'Hindi', 'SocialStudies']",Auditory,"['Writing', 'Music']",Engineer

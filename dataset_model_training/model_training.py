@@ -9,9 +9,12 @@ from sklearn.metrics import accuracy_score, classification_report
 inputDF = pd.read_csv("dataset_model_training/CBSE_Students_Dataset.csv")
 
 # Encode categorical columns
-labelEncoder = LabelEncoder()
-inputDF["LearningStyle"] = labelEncoder.fit_transform(inputDF["LearningStyle"])
-inputDF["CareerInterest"] = labelEncoder.fit_transform(inputDF["CareerInterest"])
+learningLabelEncoder = LabelEncoder()
+inputDF["LearningStyle"] = learningLabelEncoder.fit_transform(
+    inputDF["LearningStyle"])
+careerLabelEncoder = LabelEncoder()
+inputDF["CareerInterest"] = careerLabelEncoder.fit_transform(
+    inputDF["CareerInterest"])
 
 # One-hot encode hobbies
 hobbies = ["Sports", "Arts", "Music", "Dance",
@@ -21,15 +24,15 @@ for hobby in hobbies:
 
 # Prepare features and target
 features = ["Age", "Grade", "LearningStyle", "Mathematics", "Science", "English",
-            "SocialStudies", "Hindi"] + hobbies
+            "Social Science", "Hindi"] + hobbies
 
 # Reshape the data using melt
 reshapedDF = pd.melt(
     inputDF,
     id_vars=["StudentID", "Name", "Age", "Grade",
              "CareerInterest"],  # Keep CareerInterest
-    value_vars=["Mathematics", "Science", "English", "Hindi",
-                "Sanskrit", "SocialStudies"],  # Subject columns
+    value_vars=["Mathematics", "Science", "English",
+                "Social Science", "Hindi"],  # Subject columns
     var_name="Subject",
     value_name="TestScore"
 )
@@ -50,10 +53,14 @@ X = X.merge(inputDF[["StudentID"] + hobbies +
 XTrain, XTest, yTrain, yTest = train_test_split(
     X.drop(columns=["StudentID"]), y, test_size=0.2, random_state=42)
 
+# Reordering columns using loc
+XTrain = XTrain.loc[:, features]
 # Train Random Forest model
 rfModel = RandomForestClassifier(n_estimators=100, random_state=42)
 rfModel.fit(XTrain, yTrain)
 
+# Reordering columns using loc
+XTest = XTest.loc[:, features]
 # Evaluate the model
 yPred = rfModel.predict(XTest)
 print("Career Prediction Accuracy:", accuracy_score(yTest, yPred))
@@ -64,6 +71,12 @@ modelPath = "model/career_model.pkl"
 joblib.dump(rfModel, modelPath)
 print(f"Model saved to {modelPath}")
 
+# Save the fitted LabelEncoder
+joblib.dump(learningLabelEncoder, "model/learning_label_encoder.pkl")
+print("LearningLabelEncoder saved to model/learning_label_encoder.pkl")
+
+joblib.dump(careerLabelEncoder, "model/career_label_encoder.pkl")
+print("CareerLabelEncoder saved to model/career_label_encoder.pkl")
 
 # # Reverse encoding for career interest
 # decoded_career = {index: career for career, index in enumerate(labelEncoder.classes_)}
@@ -72,11 +85,11 @@ print(f"Model saved to {modelPath}")
 # career_to_subjects = {
 #     "Engineer": ["Mathematics", "Science", "English"],
 #     "Doctor": ["Science", "Biology", "English"],
-#     "Teacher": ["English", "SocialStudies", "Hindi"],
-#     "Scientist": ["Mathematics", "Science", "SocialStudies"],
+#     "Teacher": ["English", "Social Science", "Hindi"],
+#     "Scientist": ["Mathematics", "Science", "Social Science"],
 #     "Artist": ["Arts", "English", "Hindi"],
-#     "Entrepreneur": ["Mathematics", "SocialStudies", "English"],
-#     "Government Services": ["SocialStudies", "English", "Hindi"],
+#     "Entrepreneur": ["Mathematics", "Social Science", "English"],
+#     "Government Services": ["Social Science", "English", "Hindi"],
 # }
 
 # # Reverse encoding for career interest

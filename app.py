@@ -5,12 +5,12 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the trained model and other dependencies
-model_path = "model/career_model.pkl"
-loaded_model = joblib.load(model_path)
+loaded_model = joblib.load("model/career_model.pkl")
+learning_label_encoder = joblib.load("model/learning_label_encoder.pkl")
+career_label_encoder = joblib.load("model/career_label_encoder.pkl")
 
 # Predefined mappings
 hobbies = ["Sports", "Arts", "Music", "Dance", "Reading", "Technology", "Writing"]
-label_encoder = joblib.load("model/career_model.pkl")  # Pre-saved label encoder
 features = ["Age", "Grade", "LearningStyle", "Mathematics", "Science", "English", 
             "Social Science", "Hindi"] + hobbies
 career_to_subjects = {
@@ -41,7 +41,7 @@ def predict():
     user_hobbies = request.form.getlist("hobbies")  # List of selected hobbies
 
     # Preprocess the data
-    learning_style_encoded = label_encoder.transform([learning_style])[0]
+    learning_style_encoded = learning_label_encoder.transform([learning_style])[0]
     hobby_features = {hobby: (1 if hobby in user_hobbies else 0) for hobby in hobbies}
     user_data = {
         "Age": age,
@@ -60,7 +60,7 @@ def predict():
 
     # Predict career
     predicted_career_index = loaded_model.predict(user_df)[0]
-    predicted_career = label_encoder.inverse_transform([predicted_career_index])[0]
+    predicted_career = career_label_encoder.inverse_transform([predicted_career_index])[0]
     recommended_subjects = career_to_subjects.get(predicted_career, [])
 
     # Render the result page
