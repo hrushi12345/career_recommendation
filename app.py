@@ -1,7 +1,8 @@
 import joblib
+import json
+import urllib
 import pandas as pd
 from flask import Flask, render_template, request
-import urllib
 import pymysql
 pymysql.install_as_MySQLdb()
 from models import db
@@ -9,9 +10,14 @@ from tableManagement import TableManagementClass as TMC
 
 app = Flask(__name__)
 
-DATABASE_PASSWORD_UPDATED = urllib.parse.quote_plus('Pass@1234')
-app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql://root:{
-    DATABASE_PASSWORD_UPDATED}@localhost/education_path_planner'
+# Open and read the config file
+with open('config.json', 'r') as file:
+    data = json.load(file)
+dbUserName = urllib.parse.quote_plus(data['username'])
+dbPassword = urllib.parse.quote_plus(data['password'])
+dbHost = data['host']
+dbName = data['database']
+app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql://{dbUserName}:{dbPassword}@{dbHost}/{dbName}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize the database
