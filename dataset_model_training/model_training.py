@@ -77,26 +77,3 @@ print("LearningLabelEncoder saved to model/learning_label_encoder.pkl")
 
 joblib.dump(careerLabelEncoder, "model/career_label_encoder.pkl")
 print("CareerLabelEncoder saved to model/career_label_encoder.pkl")
-
-# # Reverse encoding for career interest
-# decoded_career = {index: career for career, index in enumerate(labelEncoder.classes_)}
-
-# # Map careers to recommended subjects
-# career_to_subjects = {
-#     "Engineer": ["Mathematics", "Science", "English"],
-#     "Doctor": ["Science", "Biology", "English"],
-#     "Teacher": ["English", "Social Science", "Hindi"],
-#     "Scientist": ["Mathematics", "Science", "Social Science"],
-#     "Artist": ["Arts", "English", "Hindi"],
-#     "Entrepreneur": ["Mathematics", "Social Science", "English"],
-#     "Government Services": ["Social Science", "English", "Hindi"],
-# }
-
-# # Reverse encoding for career interest
-# decoded_career = {index: career for index, career in enumerate(labelEncoder.classes_)}
-
-# # Recommend subjects based on career prediction
-# for student_index, career_index in enumerate(yPred[:10]):  # Example: First 10 students
-#     career = decoded_career[int(career_index)]  # Ensure proper mapping with integer type
-#     recommended_subjects = career_to_subjects.get(career, [])
-#     print(f"Student {student_index + 1}: Career - {career}, Recommended Subjects - {recommended_subjects}")

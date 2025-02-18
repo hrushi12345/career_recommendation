@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prediction Result</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h1>Prediction Result</h1>
-        <p><strong>Predicted Career:</strong> {{ career }}</p>
-        <p><strong>Recommended Subjects:</strong> {{ recommended_subjects | join(", ") }}</p>
-        <a href="/">Predict Again</a>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg text-center">
+        <h1 class="text-2xl font-bold text-blue-600 mb-6">Prediction Result</h1>
+        <p class="text-lg text-gray-700"><strong class="text-blue-600">Predicted Career:</strong> {{ career }}</p>
+        <p class="text-lg text-gray-700 mt-2"><strong class="text-blue-600">Recommended Subjects:</strong> {{ recommendedSubjects | join(", ") }}</p>
+        <a href="/" class="mt-6 inline-block bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">Predict Again</a>
     </div>
 </body>
 </html>
