@@ -6,12 +6,30 @@
     <title>Prediction Result</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg text-center">
+<body class="bg-gray-200 min-h-screen flex flex-col items-center justify-center">
+
+    <!-- Navigation Bar -->
+    <div class="navbar fixed top-0 left-0 w-full bg-black bg-opacity-70 text-white flex justify-between items-center p-4">
+        <div class="text-lg font-bold">Personalized Education Path Planner</div>
+        <div>
+            {% if session['id'] %}
+                <a href="/index" class="px-4 hover:underline">Home</a>
+                <a href="/logout" class="px-4 hover:underline">Logout</a>
+            {% else %}
+                <a href="/" class="px-4 hover:underline">Home</a>
+                <a href="/login" class="px-4 hover:underline">Login</a>
+                <a href="/register" class="px-4 hover:underline">Register</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Prediction Result Card -->
+    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg text-center mt-16">
         <h1 class="text-2xl font-bold text-blue-600 mb-6">Prediction Result</h1>
         <p class="text-lg text-gray-700"><strong class="text-blue-600">Predicted Career:</strong> {{ career }}</p>
         <p class="text-lg text-gray-700 mt-2"><strong class="text-blue-600">Recommended Subjects:</strong> {{ recommendedSubjects | join(", ") }}</p>
         <a href="/" class="mt-6 inline-block bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">Predict Again</a>
     </div>
+
 </body>
 </html>

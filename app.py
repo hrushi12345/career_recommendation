@@ -1,14 +1,18 @@
 import joblib
 import json
 import urllib
+import uuid
 import pandas as pd
-from flask import Flask, render_template, request
+from datetime import datetime
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask import Flask, render_template, request, redirect, url_for, session, flash
 import pymysql
 pymysql.install_as_MySQLdb()
-from models import db
+from models import db, Student, Profile
 from tableManagement import TableManagementClass as TMC
 
 app = Flask(__name__)
+app.secret_key = "!@#$%QWER^&*()POIYTREWQ"
 
 # Open and read the config file
 with open('config.json', 'r') as file:
@@ -43,17 +47,77 @@ careerToSubjects = {
     "Government Services": ["Social Science", "English", "Hindi"],
 }
 
+# Engineer, Doctor, Teacher, Scientist, Artist, Entrepreneur, Government Services
+### 🔹 Default Page → Login
+@app.route('/')
+def home():
+    return render_template('home.html')  # Home page
 
-@app.route("/")
+
+@app.route('/index')
 def index():
-    return render_template("index.html")
+    if 'id' not in session:
+        return redirect(url_for('login'))  # Ensure user is logged in
+    return render_template('index.html')
 
+### 🔹 User Registration Route
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        email = request.form.get('email')
+        name = request.form.get('name')
+        password = request.form.get('password')
+        hashed_password = generate_password_hash(password)
+
+        # Check if user already exists
+        existing_user = Student.query.filter_by(email=email).first()
+        if existing_user:
+            flash("Email already registered!", "danger")
+            return redirect(url_for('register'))
+
+        # Create user account
+        # id = str(uuid.uuid4())
+        user = Student(name=name, email=email, passwordHash=hashed_password)
+        db.session.add(user)
+        db.session.commit()
+
+        flash("Account created! Please login.", "success")
+        return redirect(url_for('login'))
+
+    return render_template('register.html')
+
+### 🔹 User Login Route
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form.get('email')
+        password = request.form.get('password')
+
+        user = Student.query.filter_by(email=email).first()
+        if user and check_password_hash(user.passwordHash, password):
+            session['id'] = user.id
+            session['email'] = user.email
+            flash("Login successful!", "success")
+            return redirect(url_for('index'))
+        else:
+            flash("Invalid credentials!", "danger")
+
+    return render_template('login.html')
+
+### 🔹 Logout Route
+@app.route('/logout')
+def logout():
+    session.clear()
+    flash("Logged out successfully!", "info")
+    return redirect(url_for('login'))
 
 @app.route("/predict", methods=["POST"])
 def predict():
+    if 'id' not in session:
+        return redirect(url_for('login'))  # Ensure user is logged in
+
     # Get form data
     age = int(request.form["age"])
-    name = request.form["name"]
     gender = request.form["gender"]
     grade = request.form["grade"]
     learningStyle = request.form["learningStyle"]
@@ -63,13 +127,14 @@ def predict():
     socialScience = int(request.form["socialScience"])
     hindi = int(request.form["hindi"])
     careerInterest = request.form["careerInterest"]
-    favSubjects = request.form.getlist("favSubjects")  # List of selected subjects
     userHobbies = request.form.getlist("hobbies")  # List of selected hobbies
 
     # Preprocess the data
     learningStyleEncoded = learningLabelEncoder.transform([learningStyle])[0]
     hobbyFeatures = {hobby: (1 if hobby in userHobbies else 0)
                      for hobby in hobbies}
+    
+    name = Student.query.filter_by(id=session['id']).first().name
     userData = {
         "Age": age,
         "Name": name,
@@ -97,7 +162,7 @@ def predict():
 
     # Store inputData in database
     dataStoredMessage = TMC().dataAdditionInTables(
-        request.form, predictedCareer, recommendedSubjects)
+        request.form, predictedCareer, recommendedSubjects, session['id'])
 
     # Render the result page
     return render_template(

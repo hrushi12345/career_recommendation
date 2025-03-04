@@ -5,109 +5,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Career Prediction</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: url('static/background_image.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg">
-        <h1 class="text-2xl font-bold text-center mb-6 text-blue-600">Career Prediction & Subject Recommendation</h1>
-        <form action="/predict" method="POST" class="space-y-4">
-            <div>
-                <label for="name" class="block text-gray-700 font-medium">Name:</label>
-                <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-            </div>
+<body class="bg-black bg-opacity-50">
 
-            <div>
-                <label for="age" class="block text-gray-700 font-medium">Age:</label>
-                <input type="number" id="age" name="age" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-            </div>
-
-            <div>
-                <label for="gender" class="block text-gray-700 font-medium">Gender:</label>
-                <select id="gender" name="gender" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </div>    
-
-            <div>
-                <label for="grade" class="block text-gray-700 font-medium">Grade:</label>
-                <select id="grade" name="grade" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                    <option value="8">8th</option>
-                    <option value="9">9th</option>
-                    <option value="10">10th</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="learningStyle" class="block text-gray-700 font-medium">Learning Style:</label>
-                <select id="learningStyle" name="learningStyle" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                    <option value="Visual">Visual</option>
-                    <option value="Auditory">Auditory</option>
-                    <option value="Kinesthetic">Kinesthetic</option>
-                </select>
-            </div>
-
-            <div class="grid grid-cols-2 gap-4">
-                <div>
-                    <label class="block text-gray-700 font-medium">Mathematics Score:</label>
-                    <input type="number" id="mathematics" name="mathematics" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                </div>
-                <div>
-                    <label class="block text-gray-700 font-medium">Science Score:</label>
-                    <input type="number" id="science" name="science" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                </div>
-                <div>
-                    <label class="block text-gray-700 font-medium">English Score:</label>
-                    <input type="number" id="english" name="english" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                </div>
-                <div>
-                    <label class="block text-gray-700 font-medium">Social Science Score:</label>
-                    <input type="number" id="socialScience" name="socialScience" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                </div>
-                <div>
-                    <label class="block text-gray-700 font-medium">Hindi Score:</label>
-                    <input type="number" id="hindi" name="hindi" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                </div>
-            </div>
-
-            <div>
-                <label class="block text-gray-700 font-medium">Favorite Subjects:</label>
-                <div class="flex flex-wrap gap-2 mt-2">
-                    {% for subject in ["Mathematics", "Science", "English", "Social Science", "Hindi"] %}
-                    <div class="flex items-center space-x-2">
-                        <input type="checkbox" id="{{ subject|lower }}" name="favSubjects" value="{{ subject }}" class="accent-blue-500">
-                        <label for="{{ subject|lower }}" class="text-gray-700">{{ subject }}</label>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-
-            <div>
-                <label class="block text-gray-700 font-medium">Hobbies:</label>
-                <div class="flex flex-wrap gap-2 mt-2">
-                    {% for hobby in ["Sports", "Arts", "Music", "Dance", "Reading", "Technology", "Writing"] %}
-                    <div class="flex items-center space-x-2">
-                        <input type="checkbox" id="{{ hobby|lower }}" name="hobbies" value="{{ hobby }}" class="accent-blue-500">
-                        <label for="{{ hobby|lower }}" class="text-gray-700">{{ hobby }}</label>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-
-            <div>
-                <label for="careerInterest" class="block text-gray-700 font-medium">Career Interest:</label>
-                <select id="careerInterest" name="careerInterest" required class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400">
-                    <option value="Engineer">Engineer</option>
-                    <option value="Doctor">Doctor</option>
-                    <option value="Teacher">Teacher</option>
-                    <option value="Scientist">Scientist</option>
-                    <option value="Artist">Artist</option>
-                    <option value="Entrepreneur">Entrepreneur</option>
-                    <option value="Government Services">Government Services</option>
-                </select>
-            </div>
-
-            <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">Predict Career</button>
-        </form>
+    <!-- Navigation Bar -->
+    <div class="navbar fixed top-0 left-0 w-full bg-black bg-opacity-70 text-white flex justify-between items-center p-4">
+        <div class="text-lg font-bold">Personalized Education Path Planner</div>
+        <div>
+            {% if session['id'] %}
+                <a href="/index" class="px-4 hover:underline">Home</a>
+                <a href="/logout" class="px-4 hover:underline">Logout</a>
+            {% else %}
+                <a href="/" class="px-4 hover:underline">Home</a>
+                <a href="/login" class="px-4 hover:underline">Login</a>
+                <a href="/register" class="px-4 hover:underline">Register</a>
+            {% endif %}
+        </div>
     </div>
+
+    <!-- Centered Form -->
+    <div class="flex items-center justify-center min-h-screen mt-16">
+        <div class="bg-white shadow-xl rounded-xl p-8 w-full max-w-2xl">
+            <h1 class="text-2xl font-bold text-center text-blue-600">Career Prediction & Subject Recommendation</h1>
+            <p class="text-center text-gray-600 mt-1">Fill out the form to get career guidance</p>
+
+            <form action="/predict" method="POST" class="mt-6 space-y-5">
+                <!-- Age & Gender -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="text-gray-700 font-medium">Age</label>
+                        <input type="number" name="age" required class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                    </div>
+                    <div>
+                        <label class="text-gray-700 font-medium">Gender</label>
+                        <select name="gender" required class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Grade & Learning Style -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="text-gray-700 font-medium">Grade</label>
+                        <select name="grade" required class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                            <option>8th</option>
+                            <option>9th</option>
+                            <option>10th</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="text-gray-700 font-medium">Learning Style</label>
+                        <select name="learningStyle" required class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                            <option>Visual</option>
+                            <option>Auditory</option>
+                            <option>Kinesthetic</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Subject Scores -->
+                <h2 class="text-lg font-semibold text-gray-800">Subject Scores</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    <input type="number" name="mathematics" placeholder="Maths" required class="p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                    <input type="number" name="science" placeholder="Science" required class="p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                    <input type="number" name="english" placeholder="English" required class="p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                    <input type="number" name="socialScience" placeholder="Social Science" required class="p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                    <input type="number" name="hindi" placeholder="Hindi" required class="p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                </div>
+
+                <!-- Hobbies -->
+                <h2 class="text-lg font-semibold text-gray-800">Hobbies</h2>
+                <div class="grid grid-cols-3 gap-2">
+                    {% for hobby in ["Sports", "Arts", "Music", "Dance", "Reading", "Technology", "Writing"] %}
+                    <div class="flex items-center">
+                        <input type="checkbox" id="{{ hobby|lower }}" name="hobbies" value="{{ hobby }}" class="accent-blue-500">
+                        <label for="{{ hobby|lower }}" class="ml-2 text-gray-700">{{ hobby }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <!-- Strengths -->
+                <h2 class="text-lg font-semibold text-gray-800">Strengths</h2>
+                <div class="grid grid-cols-3 gap-2">
+                    {% for strength in ["Adaptability", "Attention", "Communication", "Confidence", "Creativity", "Empathy", "Leadership"] %}
+                    <div class="flex items-center">
+                        <input type="checkbox" id="{{ strength|lower }}" name="strength" value="{{ strength }}" class="accent-green-500">
+                        <label for="{{ strength|lower }}" class="ml-2 text-gray-700">{{ strength }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <!-- Weaknesses -->
+                <h2 class="text-lg font-semibold text-gray-800">Weaknesses</h2>
+                <div class="grid grid-cols-3 gap-2">
+                    {% for weakness in ["Adaptability", "Attention", "Communication", "Confidence", "Creativity", "Empathy", "Leadership"] %}
+                    <div class="flex items-center">
+                        <input type="checkbox" id="{{ weakness|lower }}" name="weakness" value="{{ weakness }}" class="accent-red-500">
+                        <label for="{{ weakness|lower }}" class="ml-2 text-gray-700">{{ weakness }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <!-- Career Interest -->
+                <div>
+                    <label class="text-gray-700 font-medium">Career Interest</label>
+                    <select name="careerInterest" required class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400">
+                        <option>Engineer</option>
+                        <option>Doctor</option>
+                        <option>Teacher</option>
+                        <option>Scientist</option>
+                        <option>Artist</option>
+                        <option>Entrepreneur</option>
+                        <option>Government Services</option>
+                    </select>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+                    Predict Career
+                </button>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
