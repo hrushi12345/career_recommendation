@@ -2,9 +2,8 @@ from models import db, Student, Profile, Marks
 
 
 class TableManagementClass:
-    def dataAdditionInTables(self, inputData, predictedCareer, recommendedSubjects):
+    def dataAdditionInTables(self, inputData, predictedCareer, recommendedSubjects, id):
         age = int(inputData["age"])
-        name = inputData["name"]
         gender = inputData["gender"]
         grade = inputData["grade"]
         learningStyle = inputData["learningStyle"]
@@ -14,26 +13,28 @@ class TableManagementClass:
         socialScience = int(inputData["socialScience"])
         hindi = int(inputData["hindi"])
         careerInterest = inputData["careerInterest"]
-        favSubjects = inputData.getlist(
-            "favSubjects")  # List of selected subjects
         userHobbies = inputData.getlist("hobbies")  # List of selected hobbies
+        strength = inputData.getlist("strength")
+        weekness = inputData.getlist("weekness")
 
         # Step 1: Create Student entry
-        student = Student(age=age, name=name, gender=gender, std=grade)
-        db.session.add(student)
-        db.session.commit()  # Commit to generate student ID
+        student = Student.query.filter_by(id=id).first()
 
         # Step 2: Create Profile entry
         profile = Profile(
             st_id=student.id,
+            gender = gender,
+            std = grade,
+            age = age,
             overall_percentage=self.calculateOverallPercentage(
                 [mathematics, science, english, socialScience, hindi]),
             type_of_learner=learningStyle,
             hobbies=userHobbies,
-            favorite_subjects=favSubjects,
             recommended_subjects=recommendedSubjects,
             carrier_interest=careerInterest,
-            predicted_career=predictedCareer
+            predicted_career=predictedCareer,
+            strength = strength,
+            weekness = weekness
         )
         db.session.add(profile)
 
