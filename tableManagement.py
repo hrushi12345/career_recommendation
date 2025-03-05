@@ -1,4 +1,5 @@
 from models import db, Student, Profile, Marks
+import ast
 
 
 class TableManagementClass:
@@ -57,3 +58,8 @@ class TableManagementClass:
 
     def calculateOverallPercentage(self, marks):
         return sum(marks) / len(marks)  # Simple average calculation
+    
+    def dataRetrievalFromTables(self, id):
+        studentProfileObj = Profile.query.filter_by(st_id=id).first()
+        recommended_subjects = ast.literal_eval(studentProfileObj.recommended_subjects)
+        return studentProfileObj.carrier_interest, recommended_subjects
