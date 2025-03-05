@@ -1,3 +1,4 @@
+import requests
 import joblib
 import json
 import urllib
@@ -26,6 +27,9 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize the database
 db.init_app(app)
+
+API_KEY = data['api_key']
+URL = "https://api.mistral.ai/v1/chat/completions"
 
 # Load the trained model and other dependencies
 loadedModel = joblib.load("model/career_model.pkl")
@@ -185,6 +189,26 @@ def recommended_path():
         career=predictedCareer,
         recommendedSubjects=recommendedSubjects
     )
+
+@app.route("/chatbot", methods=["POST"])
+def chatbot():
+    user_input = request.json.get("message")
+    headers = {
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+    }
+    payload = {
+        "model": "mistral-small-latest",  # Ensure this model is available in your plan
+        "messages": [{"role": "user", "content": user_input}],
+        "max_tokens": 500
+    }
+    try:
+        response = requests.post(URL, json=payload, headers=headers)
+        response.raise_for_status()  # Raise an exception for bad status codes
+        return {"response": response.json()["choices"][0]["message"]["content"]}
+    except requests.exceptions.RequestException as e:
+        return {"error": str(e)}, 500
 
 if __name__ == "__main__":
     app.run(debug=True)
