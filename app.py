@@ -119,7 +119,7 @@ def predict():
     # Get form data
     age = int(request.form["age"])
     gender = request.form["gender"]
-    grade = request.form["grade"]
+    grade = request.form["grade"].split("t")[0]
     learningStyle = request.form["learningStyle"]
     mathematics = int(request.form["mathematics"])
     science = int(request.form["science"])
@@ -171,6 +171,20 @@ def predict():
         recommendedSubjects=recommendedSubjects
     )
 
+
+@app.route("/recommended_path", methods=["GET"])
+def recommended_path():
+    if 'id' not in session:
+        return redirect(url_for('login'))  # Ensure user is logged in
+
+    predictedCareer, recommendedSubjects = TMC().dataRetrievalFromTables(session['id'])
+
+    # Render the result page
+    return render_template(
+        "result.html",
+        career=predictedCareer,
+        recommendedSubjects=recommendedSubjects
+    )
 
 if __name__ == "__main__":
     app.run(debug=True)
