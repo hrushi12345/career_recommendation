@@ -2,5 +2,6 @@
     "username": "root",
     "password": "Pass@1234",
     "host": "localhost",
-    "database": "education_path_planner"
+    "database": "education_path_planner",
+    "api_key": "GdXyOJKojZdxiks0jhk3UvgWk3htLZ7K"
 }
